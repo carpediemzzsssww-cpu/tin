@@ -1,0 +1,34 @@
+[
+  {
+    "id": "glasses_tortoise_01",
+    "prompt": "Use case: product-mockup. Asset: a single realistic 2.5D collectible sprite for a tiny personal tin collage. Subject: One pair of slim vintage oval tortoiseshell reading glasses, folded temples tucked behind lenses, caramel amber and dark espresso acetate with clear lenses. Front of glasses facing directly upward, horizontal orientation. True transparent background with alpha, completely isolated single object, not a checkerboard, no background surface, no framing or labels. Orthographic near top-down product photo, soft daylight from upper left, fine tactile texture, realistic tasteful secondhand pocket object. Entire silhouette inside frame with generous transparent margin, sharp clean alpha, no baked cast shadow outside silhouette. No other objects, hands, logos, watermark. 1024 square.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-baee7d87-8f1e-40f6-991a-da64576f6297.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "assetPath": "/assets/glasses_tortoise_01.png"
+  },
+  {
+    "id": "scrunchie_blue_01",
+    "prompt": "Use case: product-mockup. Asset: a single realistic 2.5D collectible sprite for a tiny personal tin collage. Subject: One small powder blue and ivory gingham fabric hair scrunchie with generous natural ruffles, a visible central hole, cotton weave, slightly irregular lived-in shape. True transparent background with alpha, completely isolated single object, not a checkerboard, no background surface, no framing or labels. Orthographic near top-down product photo, soft daylight from upper left, fine tactile texture, realistic tasteful secondhand pocket object. Entire silhouette inside frame with generous transparent margin, sharp clean alpha, no baked cast shadow outside silhouette. No other objects, hands, logos, watermark. 1024 square.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-0a1de90a-240f-496d-940f-e2c90c82b709.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "assetPath": "/assets/scrunchie_blue_01.png"
+  },
+  {
+    "id": "orchid_cream_01",
+    "prompt": "Use case: product-mockup. Asset: a single realistic 2.5D collectible sprite for a tiny personal tin collage. Subject: One freshly picked ivory phalaenopsis orchid blossom, front facing up, five soft creamy petals with a delicate pale butter yellow and burgundy center. No stem or leaves. True transparent background with alpha, completely isolated single object, not a checkerboard, no background surface, no framing or labels. Orthographic near top-down product photo, soft daylight from upper left, fine tactile texture, realistic tasteful secondhand pocket object. Entire silhouette inside frame with generous transparent margin, sharp clean alpha, no baked cast shadow outside silhouette. No other objects, hands, logos, watermark. 1024 square.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-e4558dfb-1377-4806-8e31-a70431bd0393.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "assetPath": "/assets/orchid_cream_01.png"
+  },
+  {
+    "id": "cassette_navy_01",
+    "prompt": "Use case: product-mockup. Asset: a single realistic 2.5D collectible sprite for a tiny personal tin collage. Subject: One miniature 1980s audio cassette in midnight navy plastic, ivory paper label with fine faded burgundy stripes and handwritten A, two visible tape reels. No brand or trademarks. Landscape orientation, directly top down. True transparent background with alpha, completely isolated single object, not a checkerboard, no background surface, no framing or labels. Orthographic near top-down product photo, soft daylight from upper left, fine tactile texture, realistic tasteful secondhand pocket object. Entire silhouette inside frame with generous transparent margin, sharp clean alpha, no baked cast shadow outside silhouette. No other objects, hands, logos, watermark. 1024 square.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-cc72fc70-640d-4189-9b39-18e342c80eeb.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "assetPath": "/assets/cassette_navy_01.png"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "reference_count": 40,
+  "categories": {
+    "tin": 6,
+    "edc": 6,
+    "charms": 4,
+    "collage": 4,
+    "trays": 4,
+    "composition": 4,
+    "materials": 6,
+    "motion": 3,
+    "technical": 3
+  },
+  "unique_images": 40,
+  "image_validation": "40/40 decoded and verified with Pillow; 40 distinct SHA-256 hashes",
+  "source_metadata_complete": true,
+  "reuse_candidates": 5,
+  "source_page_limitations": [
+    "R21: source body timed out; image and visible credit checked",
+    "R23: auction page body unavailable; image checked"
+  ],
+  "gate_a": "approved_direction_A",
+  "gate_b": "approved_with_revisions",
+  "product_implementation": "prototype_ready",
+  "total_image_bytes": 7813252
+}

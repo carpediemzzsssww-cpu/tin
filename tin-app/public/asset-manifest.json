@@ -1,0 +1,2926 @@
+{
+  "version": "0.6",
+  "direction": "A",
+  "gate_a": "approved",
+  "gate_b": "approved_with_revisions",
+  "dimension_note": "项目定义的迷你物件外接尺寸上限，单位 mm；图像等比适配该框，禁止拉伸。并非来源照片实测尺寸。",
+  "composition_note": "物件推荐与层级为初始建议；用户拖放结果优先。",
+  "core_assets": [
+    {
+      "id": "tin_silver_01",
+      "name": "裸银圆角铁盒",
+      "render_mode": "3d_mesh",
+      "source_method": "original_parametric_3d",
+      "physical_size_mm": {
+        "width": 140,
+        "height": 90,
+        "depth": 19
+      },
+      "source": "src/tin-model.js",
+      "status": "prototype_ready",
+      "needs_reverse_side": true
+    },
+    {
+      "id": "lining_white_folded_01",
+      "name": "白色微折纸内衬",
+      "render_mode": "procedural_material",
+      "source_method": "original_canvas",
+      "physical_size_mm": {
+        "width": 135,
+        "height": 85,
+        "depth": 0.2
+      },
+      "source": "src/tin-model.js",
+      "status": "prototype_ready",
+      "needs_reverse_side": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "dice_red_01",
+      "name": "红骰子",
+      "category": "toys_charms",
+      "category_label": "玩具与挂件",
+      "family": "dice",
+      "variant": "red",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 16,
+        "height": 16,
+        "depth": 16
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/sample-generation-log.json#dice_red_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "hard_click",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "plastic",
+      "status": "prototype_ready",
+      "asset_path": "/assets/dice_red_01-v2.png",
+      "alpha_bounds": [
+        199,
+        199,
+        1057,
+        1050
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "plastic",
+        "dice",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "alpha_bounds_threshold": 8,
+        "sha256": "3eaa8f0eebd712c0047e904f878fdf9f36c279181aa7c18e9fef9e480a48f517",
+        "production_final": false,
+        "visual_note": "透明留白中残留极低 alpha 杂点；场景忽略不可见低值。",
+        "generation_notes": [
+          "Top face has correct five-pip pattern; thin visible side faces and red plastic verified.",
+          "Very low-alpha detached speckles remain in transparent margin; no pixel cleanup applied."
+        ],
+        "input_sha_verified": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "sha256": "3eaa8f0eebd712c0047e904f878fdf9f36c279181aa7c18e9fef9e480a48f517",
+      "variants": [
+        {
+          "id": "red",
+          "label": "莓果红",
+          "assetId": "dice_red_01"
+        },
+        {
+          "id": "ivory",
+          "label": "奶油白",
+          "assetId": "dice_ivory_01"
+        }
+      ]
+    },
+    {
+      "id": "dice_ivory_01",
+      "name": "象牙白骰子",
+      "category": "toys_charms",
+      "category_label": "玩具与挂件",
+      "family": "dice",
+      "variant": "ivory",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 16,
+        "height": 16,
+        "depth": 16
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#dice_ivory_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "hard_click",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/dice_ivory_01.png",
+      "alpha_bounds": [
+        197,
+        197,
+        1058,
+        1051
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "plastic",
+        "dice",
+        "contemporary"
+      ],
+      "sha256": "cbbc9e1ecf0c1016356d7ab41beeef11e7bebdb14b147b9003007955a3a6692b",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": [
+        {
+          "id": "red",
+          "label": "莓果红",
+          "assetId": "dice_red_01"
+        },
+        {
+          "id": "ivory",
+          "label": "奶油白",
+          "assetId": "dice_ivory_01"
+        }
+      ]
+    },
+    {
+      "id": "plush_gray_01",
+      "name": "手作布偶",
+      "category": "toys_charms",
+      "category_label": "玩具与挂件",
+      "family": "plush",
+      "variant": "oat",
+      "material": "cotton",
+      "physical_size_mm": {
+        "width": 38,
+        "height": 48,
+        "depth": 12
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/customization-generation.json"
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "soft_drop",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "plush",
+      "status": "prototype_ready",
+      "asset_path": "/assets/variants/plush_oat.png",
+      "alpha_bounds": [
+        195,
+        112,
+        946,
+        1267
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "plush",
+        "plush",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "alpha_bounds_threshold": 8,
+        "sha256": "a75f9882e0362038a07cc6834eceffd876e931df6a2dbaebc2f3803f213de7b3",
+        "production_final": false,
+        "visual_note": "高倍查看仍有细小彩色边缘，正式入库前需要精修。",
+        "generation_notes": [
+          "Two ears, arms, legs, metal ring and fabric fibers verified.",
+          "Tiny yellow/red edge fragments and low-alpha speckles remain; final production edge cleanup still required."
+        ],
+        "input_sha_verified": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "sha256": "9d34a030cdc09b13a0e3e1e42f021fd04b41425cc929e7f8e01fd7f37fea9eac",
+      "variants": [
+        {
+          "id": "default",
+          "label": "燕麦小熊",
+          "path": "/assets/variants/plush_oat.png",
+          "bounds": [
+            195,
+            112,
+            946,
+            1267
+          ]
+        },
+        {
+          "id": "plush_rabbit",
+          "label": "苔绿小兔",
+          "path": "/assets/variants/plush_rabbit.png",
+          "bounds": [
+            38,
+            33,
+            1159,
+            1273
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earphones_white_coiled_01",
+      "name": "白色半卷耳机",
+      "category": "daily_stuff",
+      "category_label": "日常物件",
+      "family": "earphones",
+      "variant": "white_half_coiled",
+      "material": "cable",
+      "physical_size_mm": {
+        "width": 64,
+        "height": 60,
+        "depth": 7
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/sample-generation-log.json#earphones_white_coiled_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "soft_plastic",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "cable",
+      "status": "prototype_ready",
+      "asset_path": "/assets/earphones_white_coiled_01-v3.png",
+      "alpha_bounds": [
+        318,
+        324,
+        973,
+        973
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": true,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "cable",
+        "earphones",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "alpha_bounds_threshold": 8,
+        "sha256": "e480725eb91debadd9d4ff647e4163f09d6fb356b15e06fdbf62e10e3b61481e",
+        "production_final": false,
+        "visual_note": "深色背景下仍可见细白边；正式入库前需要精修。",
+        "generation_notes": [
+          "Two ear tips, Y-junction, one remote and one audio plug verified; cable joins visually continuous.",
+          "White edge fringe remains around wire and some low-alpha speckles remain; gate review sample, not final alpha-clean production texture."
+        ],
+        "input_sha_verified": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "sha256": "e480725eb91debadd9d4ff647e4163f09d6fb356b15e06fdbf62e10e3b61481e",
+      "variants": [
+        {
+          "id": "white",
+          "label": "白色",
+          "assetId": "earphones_white_coiled_01"
+        },
+        {
+          "id": "black",
+          "label": "黑色",
+          "assetId": "earphones_black_coiled_01"
+        }
+      ]
+    },
+    {
+      "id": "earphones_black_coiled_01",
+      "name": "黑色半卷耳机",
+      "category": "daily_stuff",
+      "category_label": "日常物件",
+      "family": "earphones",
+      "variant": "black_half_coiled",
+      "material": "cable",
+      "physical_size_mm": {
+        "width": 64,
+        "height": 60,
+        "depth": 7
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#earphones_black_coiled_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "soft_plastic",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/earphones_black_coiled_01.png",
+      "alpha_bounds": [
+        280,
+        263,
+        1006,
+        1013
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": true,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "cable",
+        "earphones",
+        "contemporary"
+      ],
+      "sha256": "5661b4dd0f90fd0946bcd797515d0e6263bcdb48f7e219a8d2f0226ec31b0afe",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": [
+        {
+          "id": "white",
+          "label": "白色",
+          "assetId": "earphones_white_coiled_01"
+        },
+        {
+          "id": "black",
+          "label": "黑色",
+          "assetId": "earphones_black_coiled_01"
+        }
+      ]
+    },
+    {
+      "id": "hairclip_silver_01",
+      "name": "银色弹片发夹",
+      "category": "daily_stuff",
+      "category_label": "日常物件",
+      "family": "hairclip",
+      "variant": "silver",
+      "material": "metal",
+      "physical_size_mm": {
+        "width": 42,
+        "height": 12,
+        "depth": 3
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#hairclip_silver_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "light_metal",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/hairclip_silver_01.png",
+      "alpha_bounds": [
+        177,
+        329,
+        1448,
+        680
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "metal",
+        "hairclip",
+        "contemporary"
+      ],
+      "sha256": "6b8191cb87b7537a7bc64799b275d67d84fe217bce726679e3d2bd6064fb6169",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "key_silver_01",
+      "name": "银色家门钥匙",
+      "category": "daily_stuff",
+      "category_label": "日常物件",
+      "family": "key",
+      "variant": "silver",
+      "material": "metal",
+      "physical_size_mm": {
+        "width": 22,
+        "height": 55,
+        "depth": 2
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/sample-generation-log.json#key_silver_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "light_metal",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "metal",
+      "status": "prototype_ready",
+      "asset_path": "/assets/key_silver_01-v3.png",
+      "alpha_bounds": [
+        490,
+        302,
+        768,
+        980
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "metal",
+        "key",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "alpha_bounds_threshold": 8,
+        "sha256": "c9ec5589ae763b03eceb6d1102753ed437e3ffbf5b383b80158fa6286a2f26f0",
+        "production_final": false,
+        "visual_note": "高倍查看仍有少量暖色边缘；当前仅为审核样品。",
+        "generation_notes": [
+          "Silhouette, grooves, key hole and realistic metal wear visually verified.",
+          "Tiny warm-colored edge fringes remain at full resolution; acceptable for review only, inspect at target mobile scale."
+        ],
+        "input_sha_verified": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "sha256": "c9ec5589ae763b03eceb6d1102753ed437e3ffbf5b383b80158fa6286a2f26f0",
+      "variants": []
+    },
+    {
+      "id": "ticket_cream_01",
+      "name": "白纸电影票根",
+      "category": "paper_memories",
+      "category_label": "纸与记忆",
+      "family": "ticket",
+      "variant": "cream",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 70,
+        "height": 33,
+        "depth": 0.25
+      },
+      "size_class": "L",
+      "render_mode": "2.5d_cutout",
+      "source_method": "procedural_svg",
+      "source": {
+        "kind": "procedural_svg",
+        "record": "src/paper-template.js",
+        "url": null
+      },
+      "author": "TIN 项目原创程序",
+      "license_status": "project_original",
+      "license_note": "项目内自制；无第三方图片许可依赖；未声明 CC0",
+      "needs_cutout": false,
+      "needs_reverse_side": false,
+      "customizable_fields": [
+        {
+          "key": "event",
+          "label": "名称",
+          "max_length": 24
+        },
+        {
+          "key": "date",
+          "label": "日期",
+          "max_length": 16
+        },
+        {
+          "key": "seat",
+          "label": "座位",
+          "max_length": 8
+        },
+        {
+          "key": "details.venue",
+          "label": "影院 / 场地",
+          "max_length": 22
+        },
+        {
+          "key": "details.footer",
+          "label": "票根寄语",
+          "max_length": 32
+        }
+      ],
+      "physics_feedback": "paper_rustle",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "paper",
+      "status": "prototype_ready",
+      "asset_path": "/assets/ticket_cream_01.png",
+      "alpha_bounds": null,
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "lid",
+      "default_layer_band": "paper",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "paper",
+        "ticket",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "sha256": "4a3fc7a60ef3b707838866ae171b9e64b6e2d7fc81b36776931a2dc98ea26328",
+        "production_final": false,
+        "visual_note": "原创可编辑模板；纸纹、排版与比例待审核。",
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        840,
+        396
+      ],
+      "source_record": "src/textures.ts",
+      "sha256": "1d690a40e205279009fc34f734e447adbb60c535883f20c147b921f021fc5a07",
+      "variants": [
+        {
+          "id": "cream",
+          "label": "米白",
+          "assetId": "ticket_cream_01"
+        },
+        {
+          "id": "blue",
+          "label": "浅蓝",
+          "assetId": "ticket_blue_01"
+        }
+      ]
+    },
+    {
+      "id": "ticket_blue_01",
+      "name": "浅蓝电影票根",
+      "category": "paper_memories",
+      "category_label": "纸与记忆",
+      "family": "ticket",
+      "variant": "blue",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 70,
+        "height": 33,
+        "depth": 0.25
+      },
+      "size_class": "L",
+      "render_mode": "2.5d_cutout",
+      "source_method": "procedural_svg",
+      "source": {
+        "kind": "procedural_svg",
+        "record": "src/paper-template.js",
+        "url": null
+      },
+      "author": "TIN 项目原创程序",
+      "license_status": "project_original",
+      "license_note": "项目内自制；无第三方图片许可依赖；未声明 CC0",
+      "needs_cutout": false,
+      "needs_reverse_side": false,
+      "customizable_fields": [
+        {
+          "key": "event",
+          "label": "名称",
+          "max_length": 24
+        },
+        {
+          "key": "date",
+          "label": "日期",
+          "max_length": 16
+        },
+        {
+          "key": "seat",
+          "label": "座位",
+          "max_length": 8
+        },
+        {
+          "key": "details.venue",
+          "label": "影院 / 场地",
+          "max_length": 22
+        },
+        {
+          "key": "details.footer",
+          "label": "票根寄语",
+          "max_length": 32
+        }
+      ],
+      "physics_feedback": "paper_rustle",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/ticket_blue_01.png",
+      "alpha_bounds": null,
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "lid",
+      "default_layer_band": "paper",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "paper",
+        "ticket",
+        "contemporary"
+      ],
+      "source_record": "src/textures.ts",
+      "sha256": "c91945eb259001e92e7978f921c1c30aea9c3bf3be82751cb6fb2a3bd4812cdc",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": [
+        {
+          "id": "cream",
+          "label": "米白",
+          "assetId": "ticket_cream_01"
+        },
+        {
+          "id": "blue",
+          "label": "浅蓝",
+          "assetId": "ticket_blue_01"
+        }
+      ]
+    },
+    {
+      "id": "receipt_white_01",
+      "name": "普通小票",
+      "category": "paper_memories",
+      "category_label": "纸与记忆",
+      "family": "receipt",
+      "variant": "white",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 29,
+        "height": 66,
+        "depth": 0.15
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "original_canvas",
+      "source": {
+        "kind": "original_canvas",
+        "record": "src/textures.ts",
+        "url": null
+      },
+      "author": "TIN 项目原创程序",
+      "license_status": "project_original",
+      "license_note": "项目内自制；无第三方图片许可依赖；未声明 CC0",
+      "needs_cutout": false,
+      "needs_reverse_side": false,
+      "customizable_fields": [
+        {
+          "key": "details.shop",
+          "label": "店名",
+          "max_length": 22
+        },
+        {
+          "key": "date",
+          "label": "时间",
+          "max_length": 24
+        },
+        {
+          "key": "text",
+          "label": "清单（每行一项）",
+          "max_length": 100
+        },
+        {
+          "key": "details.total",
+          "label": "合计",
+          "max_length": 12
+        },
+        {
+          "key": "details.footer",
+          "label": "小票寄语",
+          "max_length": 30
+        }
+      ],
+      "physics_feedback": "paper_rustle",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/receipt_white_01.png",
+      "alpha_bounds": null,
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "lid",
+      "default_layer_band": "paper",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "paper",
+        "receipt",
+        "contemporary"
+      ],
+      "source_record": "src/textures.ts",
+      "sha256": "4011faa7df44226d9fd9140eb80938c3141aa5d2b7a343a6505cd8f19342632e",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "pick_red_01",
+      "name": "红色吉他拨片",
+      "category": "culture",
+      "category_label": "文化物件",
+      "family": "guitar_pick",
+      "variant": "red",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 25,
+        "height": 30,
+        "depth": 0.8
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#pick_red_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "light_plastic",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/pick_red_01.png",
+      "alpha_bounds": [
+        172,
+        172,
+        1027,
+        1134
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "plastic",
+        "guitar_pick",
+        "contemporary"
+      ],
+      "sha256": "7c75f53a82cab6c38c394472fa263f243481a007af3388c73993d563c94bd860",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "cartridge_gray_01",
+      "name": "无品牌游戏卡带",
+      "category": "culture",
+      "category_label": "文化物件",
+      "family": "game_cartridge",
+      "variant": "gray",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 33,
+        "height": 35,
+        "depth": 4
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#cartridge_gray_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "hard_click",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/cartridge_gray_01.png",
+      "alpha_bounds": [
+        117,
+        111,
+        1102,
+        1184
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "plastic",
+        "game_cartridge",
+        "contemporary"
+      ],
+      "sha256": "527c84a3417a85114f70baf59deec7f1094c93e10fe2c58b0e114ae833d5b2b0",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "film_strip_01",
+      "name": "短段负片",
+      "category": "paper_memories",
+      "category_label": "文化物件",
+      "family": "film",
+      "variant": "amber",
+      "material": "mixed",
+      "physical_size_mm": {
+        "width": 35,
+        "height": 70,
+        "depth": 0.2
+      },
+      "size_class": "L",
+      "render_mode": "2.5d_cutout",
+      "source_method": "original_canvas",
+      "source": {
+        "kind": "original_canvas",
+        "record": "src/textures.ts",
+        "url": null
+      },
+      "author": "TIN 项目原创程序",
+      "license_status": "project_original",
+      "license_note": "项目内自制；无第三方图片许可依赖；未声明 CC0",
+      "needs_cutout": false,
+      "needs_reverse_side": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "胶片说明",
+          "max_length": 20
+        },
+        {
+          "key": "photoIds",
+          "label": "私人照片"
+        }
+      ],
+      "physics_feedback": "paper_rustle",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/film_strip_01.png",
+      "alpha_bounds": null,
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "mixed",
+        "film",
+        "contemporary"
+      ],
+      "source_record": "src/textures.ts",
+      "sha256": "c3fa94a63d93be034664e4d1b2de5c7bd15c4be8da50fbc6717b44d586b0dda9",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "bottlecap_blue_01",
+      "name": "蓝色瓶盖",
+      "category": "random_shit",
+      "category_label": "随机杂物",
+      "family": "bottlecap",
+      "variant": "blue",
+      "material": "metal",
+      "physical_size_mm": {
+        "width": 26,
+        "height": 26,
+        "depth": 6
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#bottlecap_blue_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "light_metal",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/bottlecap_blue_01.png",
+      "alpha_bounds": [
+        160,
+        104,
+        1157,
+        1090
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "metal",
+        "bottlecap",
+        "contemporary"
+      ],
+      "sha256": "c880d5705647c09f6c689a4aabb6a8c614102fbd968fe57391bfa391e42f683e",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "blister_clear_01",
+      "name": "透明泡罩药板",
+      "category": "random_shit",
+      "category_label": "随机杂物",
+      "family": "blister",
+      "variant": "clear_foil",
+      "material": "mixed",
+      "physical_size_mm": {
+        "width": 32,
+        "height": 50,
+        "depth": 5
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/sample-generation-log.json#blister_clear_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "soft_plastic",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": "transparent",
+      "status": "prototype_ready",
+      "asset_path": "/assets/blister_clear_01-v3.png",
+      "alpha_bounds": [
+        397,
+        306,
+        858,
+        988
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "mixed",
+        "blister",
+        "contemporary"
+      ],
+      "qa": {
+        "true_alpha": true,
+        "alpha_bounds_threshold": 8,
+        "sha256": "ab2eadfbf515abfde4b9793481b0012de64557a7811126a7fefd390072dd697a",
+        "production_final": false,
+        "visual_note": "局部薄边需最终复核；泡罩保留背衬，破口真实透明。",
+        "generation_notes": [
+          "Six compartments in two columns and three rows; open holes genuinely alpha-transparent.",
+          "Selected dimensions must be width 32mm × height 50mm.",
+          "Foil backing dominates; transparent plastic effect reads through highlights, not full scene refraction.",
+          "Tiny colored edge fragments remain; gate review sample."
+        ],
+        "input_sha_verified": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "pixel_size": [
+        1254,
+        1254
+      ],
+      "sha256": "ab2eadfbf515abfde4b9793481b0012de64557a7811126a7fefd390072dd697a",
+      "variants": []
+    },
+    {
+      "id": "paperclip_silver_01",
+      "name": "银色回形针",
+      "category": "random_shit",
+      "category_label": "随机杂物",
+      "family": "paperclip",
+      "variant": "silver",
+      "material": "metal",
+      "physical_size_mm": {
+        "width": 10,
+        "height": 28,
+        "depth": 1
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "original_canvas",
+      "source": {
+        "kind": "original_canvas",
+        "record": "src/textures.ts",
+        "url": null
+      },
+      "author": "TIN 项目原创程序",
+      "license_status": "project_original",
+      "license_note": "项目内自制；无第三方图片许可依赖；未声明 CC0",
+      "needs_cutout": false,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "light_metal",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/paperclip_silver_01.png",
+      "alpha_bounds": null,
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.9
+      },
+      "tags": [
+        "metal",
+        "paperclip",
+        "contemporary"
+      ],
+      "source_record": "src/textures.ts",
+      "sha256": "79acf4ba0c14ad2340ac4a0ad011f1a9ddf90cec1b782019d0ebbc9620217b51",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "shell_small_01",
+      "name": "小贝壳",
+      "category": "found_outside",
+      "category_label": "户外拾物",
+      "family": "shell",
+      "variant": "ivory",
+      "material": "shell",
+      "physical_size_mm": {
+        "width": 25,
+        "height": 22,
+        "depth": 8
+      },
+      "size_class": "S",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#shell_small_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "hard_click",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/shell_small_01.png",
+      "alpha_bounds": [
+        170,
+        166,
+        1151,
+        1057
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.7
+      },
+      "tags": [
+        "shell",
+        "shell",
+        "found"
+      ],
+      "sha256": "ef61c88b6e86cebdcecfbfef30e211a8a88baa2254a2bd0641d6b209a7fe98bf",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "leaf_green_01",
+      "name": "普通绿叶",
+      "category": "found_outside",
+      "category_label": "户外拾物",
+      "family": "leaf",
+      "variant": "green",
+      "material": "leaf",
+      "physical_size_mm": {
+        "width": 48,
+        "height": 26,
+        "depth": 0.3
+      },
+      "size_class": "M",
+      "render_mode": "2.5d_cutout",
+      "source_method": "ai_pre_generated",
+      "source": {
+        "kind": "ai_pre_generated",
+        "record": "/provenance/generated-assets.json#leaf_green_01",
+        "url": null
+      },
+      "author": "TIN 项目 / imagegen 预生成",
+      "license_status": "generated_original_pending_visual_review",
+      "license_note": "项目内生成，保留提示词与原始输出；未声明 CC0；需检查意外品牌与角色相似性",
+      "needs_cutout": true,
+      "needs_reverse_side": false,
+      "customizable_fields": [],
+      "physics_feedback": "paper_rustle",
+      "physical_simulation": false,
+      "copyright_review": "Project-original procedural asset or unbranded AI-generated bitmap. No purchased or third-party artwork included; AI generation is not a CC0 declaration.",
+      "attribution_required": false,
+      "mvp": true,
+      "sample_material": null,
+      "status": "prototype_ready",
+      "asset_path": "/assets/leaf_green_01.png",
+      "alpha_bounds": [
+        237,
+        237,
+        1300,
+        800
+      ],
+      "canonical_rotation_deg": 0,
+      "scale_limits": [
+        0.8,
+        1.2
+      ],
+      "allow_partial_overflow": false,
+      "preferred_surface": "tray",
+      "default_layer_band": "object",
+      "tin_match": {
+        "silver": 0.7
+      },
+      "tags": [
+        "leaf",
+        "leaf",
+        "found"
+      ],
+      "sha256": "2ede63d395907da6f608d0cf31deec95236a1d2c43ef7384372f549904b375eb",
+      "dimension_note": "Generated leaf naturally lies horizontally; same 48 mm long axis.",
+      "qa": {
+        "true_alpha": true,
+        "scale_policy": "Maintain image ratio within millimetre bounding box",
+        "edge_policy": "Original source pixels unchanged; renderer alphaTest 0.07 discards low-alpha edge noise",
+        "validated_at": "2026-09-24"
+      },
+      "variants": []
+    },
+    {
+      "id": "glasses_tortoise_01",
+      "name": "琥珀眼镜",
+      "category": "daily_stuff",
+      "family": "glasses",
+      "variant": "curated",
+      "material": "acetate",
+      "physical_size_mm": {
+        "width": 72,
+        "height": 30,
+        "depth": 4
+      },
+      "asset_path": "/assets/glasses_tortoise_01.png",
+      "alpha_bounds": [
+        34,
+        472,
+        1222,
+        781
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/style-generation-log.json"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "9de724bdb4a65bac14ca54bc5a0f54cd0f09c80333a304515167cf05eea4f193",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": [
+        {
+          "id": "default",
+          "label": "琥珀"
+        },
+        {
+          "id": "glasses_sage",
+          "label": "鼠尾草",
+          "path": "/assets/variants/glasses_sage.png",
+          "bounds": [
+            35,
+            477,
+            1220,
+            777
+          ]
+        },
+        {
+          "id": "glasses_wire",
+          "label": "香槟金",
+          "path": "/assets/variants/glasses_wire.png",
+          "bounds": [
+            36,
+            470,
+            1218,
+            783
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scrunchie_blue_01",
+      "name": "蓝格发圈",
+      "category": "daily_stuff",
+      "family": "scrunchie",
+      "variant": "curated",
+      "material": "cotton",
+      "physical_size_mm": {
+        "width": 34,
+        "height": 34,
+        "depth": 4
+      },
+      "asset_path": "/assets/scrunchie_blue_01.png",
+      "alpha_bounds": [
+        137,
+        115,
+        1167,
+        1140
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/style-generation-log.json"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "852d22cdc172bcb214cdde6674caa48f1bf1d28760353a76aa1c0cb0711cea15",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": [
+        {
+          "id": "default",
+          "label": "蓝格"
+        },
+        {
+          "id": "scrunchie_rose",
+          "label": "藕粉",
+          "path": "/assets/variants/scrunchie_rose.png",
+          "bounds": [
+            137,
+            112,
+            1174,
+            1143
+          ]
+        },
+        {
+          "id": "scrunchie_sage",
+          "label": "草绿",
+          "path": "/assets/variants/scrunchie_sage.png",
+          "bounds": [
+            136,
+            111,
+            1170,
+            1142
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orchid_cream_01",
+      "name": "奶油兰花",
+      "category": "found_outside",
+      "family": "orchid",
+      "variant": "curated",
+      "material": "petal",
+      "physical_size_mm": {
+        "width": 43,
+        "height": 39,
+        "depth": 4
+      },
+      "asset_path": "/assets/orchid_cream_01.png",
+      "alpha_bounds": [
+        41,
+        77,
+        1213,
+        1138
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/style-generation-log.json"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "3ea27393017f122f7558a35d6d203b3252e6dc93ad386f8a983bda7af08358be",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": [
+        {
+          "id": "default",
+          "label": "奶油白"
+        },
+        {
+          "id": "orchid_blush",
+          "label": "浅粉",
+          "path": "/assets/variants/orchid_blush.png",
+          "bounds": [
+            42,
+            77,
+            1215,
+            1138
+          ]
+        },
+        {
+          "id": "orchid_butter",
+          "label": "奶油黄",
+          "path": "/assets/variants/orchid_butter.png",
+          "bounds": [
+            41,
+            76,
+            1214,
+            1138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cassette_navy_01",
+      "name": "午夜磁带",
+      "category": "culture",
+      "family": "cassette",
+      "variant": "curated",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 54,
+        "height": 35,
+        "depth": 4
+      },
+      "asset_path": "/assets/cassette_navy_01.png",
+      "alpha_bounds": [
+        40,
+        284,
+        1215,
+        977
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/style-generation-log.json"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "12fea9bf9fa32b1698e5206afe75f219194ace590f7ee2dbd41759d20829194a",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "paper_torn_01",
+      "name": "撕边信纸",
+      "category": "paper_memories",
+      "family": "torn_paper",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 69,
+        "height": 48,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/paper_torn_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "details.heading",
+          "label": "小标题",
+          "max_length": 40
+        },
+        {
+          "key": "text",
+          "label": "纸条内容",
+          "max_length": 100
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "e3b5946f356044da98ef57fb791e53853a0476cfa64a2cd904304f72e8c715a8",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "lace_round_01",
+      "name": "蕾丝纸垫",
+      "category": "paper_memories",
+      "family": "lace",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 58,
+        "height": 58,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/lace_round_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "中心文字",
+          "max_length": 12
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "7a8f92edbf0b386a1b3df71c6c52ea7e915949f63b9de9f901ac0b17fc492674",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "star_foil_01",
+      "name": "锡纸星星",
+      "category": "toys_charms",
+      "family": "star",
+      "variant": "curated",
+      "material": "foil",
+      "physical_size_mm": {
+        "width": 18,
+        "height": 18,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/star_foil_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "3a02ebbc4ef8c41417194f504afe0a31e699fe9beb53cee097bc1ab95e66ebd6",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "clover_pressed_01",
+      "name": "幸运四叶草",
+      "category": "found_outside",
+      "family": "clover",
+      "variant": "curated",
+      "material": "pressed_leaf",
+      "physical_size_mm": {
+        "width": 32,
+        "height": 38,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/variants/clover_real.png",
+      "alpha_bounds": [
+        145,
+        63,
+        1121,
+        1230
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "author": "TIN studio",
+        "record": "provenance/customization-generation.json"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "69718d10aebe703a9843732f27d3d507e7481d2e9093f87055a3e087bf6311f2",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "hotel_tag_01",
+      "name": "旅馆钥匙牌",
+      "category": "toys_charms",
+      "family": "hotel_tag",
+      "variant": "curated",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 22,
+        "height": 49,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/hotel_tag_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "details.hotel",
+          "label": "旅馆名称",
+          "max_length": 18
+        },
+        {
+          "key": "details.city",
+          "label": "地点",
+          "max_length": 16
+        },
+        {
+          "key": "text",
+          "label": "房间号",
+          "max_length": 8
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "968cf7b48feeedfcbf6fac66d4da2c88843d6889fe03cbf47c010729b4b71944",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "button_pearl_01",
+      "name": "珍珠纽扣",
+      "category": "random_shit",
+      "family": "button",
+      "variant": "curated",
+      "material": "plastic",
+      "physical_size_mm": {
+        "width": 17,
+        "height": 17,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/button_pearl_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "6f34749a5fb8499757b883e0dc03a8b4c45a1c137891798c629edc5618893b0a",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "bow_dotted_01",
+      "name": "波点蝴蝶结",
+      "category": "daily_stuff",
+      "family": "bow",
+      "variant": "curated",
+      "material": "ribbon",
+      "physical_size_mm": {
+        "width": 35,
+        "height": 27,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/bow_dotted_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "e654d14d38f28629d1e6f1eccb0d8108c3f0b8bf5c19b2788c1d4f992b3efbb8",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "calendar_01",
+      "name": "纪念日历",
+      "category": "paper_memories",
+      "family": "calendar",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 47,
+        "height": 51,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/calendar_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "date",
+          "label": "纪念日",
+          "max_length": 10
+        },
+        {
+          "key": "text",
+          "label": "日历寄语",
+          "max_length": 26
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "6f13f2adf5c52c5abe959018db593539d6b0613814440684a8db80761d37d002",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "birthday_numbers_01",
+      "name": "剪贴数字",
+      "category": "paper_memories",
+      "family": "numbers",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 63,
+        "height": 23,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/birthday_numbers_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "四位数字",
+          "max_length": 4
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "1aadb302bc9322a2460edda1cf8717cb0afb72467e1264d41a252335dccb5dc8",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "wax_seal_01",
+      "name": "星月火漆",
+      "category": "random_shit",
+      "family": "seal",
+      "variant": "curated",
+      "material": "wax",
+      "physical_size_mm": {
+        "width": 23,
+        "height": 23,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/wax_seal_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "印章字母",
+          "max_length": 3
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "15f3cc7fe2578e6ee0e7d59f9c2a7691848b3137cec8d8ca62ee8ce83f62c346",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "moon_patch_01",
+      "name": "月亮布贴",
+      "category": "toys_charms",
+      "family": "moon",
+      "variant": "curated",
+      "material": "embroidery",
+      "physical_size_mm": {
+        "width": 32,
+        "height": 25,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/moon_patch_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "39680fe63ab0da224f01ee116ef5babcab048e7923955249e7504833291650ac",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "landscape_card_01",
+      "name": "旅行画片",
+      "category": "paper_memories",
+      "family": "landscape",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 43,
+        "height": 57,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/landscape_card_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "画片说明",
+          "max_length": 32
+        },
+        {
+          "key": "photoId",
+          "label": "私人照片"
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "67244b97c70e604fbadbe3f8e00189b8abd51e869ec95f9698848b9e63eabb13",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "washi_stripe_01",
+      "name": "条纹纸胶带",
+      "category": "paper_memories",
+      "family": "washi",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 42,
+        "height": 13,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/washi_stripe_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "text",
+          "label": "胶带文字",
+          "max_length": 22
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "4d13f59f40087b0db3ce184f15e466cb72b610fdf9b7e036c63d505d85a4113f",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": [
+        {
+          "id": "stripe",
+          "label": "条纹"
+        },
+        {
+          "id": "dots",
+          "label": "波点"
+        },
+        {
+          "id": "check",
+          "label": "格子"
+        }
+      ]
+    },
+    {
+      "id": "envelope_01",
+      "name": "未寄出的信",
+      "category": "paper_memories",
+      "family": "envelope",
+      "variant": "curated",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 62,
+        "height": 41,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/envelope_01.png",
+      "alpha_bounds": null,
+      "source_method": "original_canvas",
+      "source": {
+        "author": "TIN studio",
+        "record": "src/curated-art.ts"
+      },
+      "license_note": "原创项目素材；不含影视截图或品牌标识，不声明为 CC0。",
+      "allow_partial_overflow": false,
+      "customizable_fields": [
+        {
+          "key": "details.to",
+          "label": "收件人",
+          "max_length": 22
+        },
+        {
+          "key": "details.from",
+          "label": "寄件人",
+          "max_length": 22
+        },
+        {
+          "key": "text",
+          "label": "信封寄语",
+          "max_length": 35
+        },
+        {
+          "key": "color",
+          "label": "颜色"
+        }
+      ],
+      "mvp": true,
+      "sha256": "f96da18cdb1545337bad4746d976220658f55cb527c214b97b3cc36f061bc682",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "cherry_charm_01",
+      "name": "樱桃挂件",
+      "category": "toys_charms",
+      "family": "cherry",
+      "variant": "original",
+      "material": "resin",
+      "physical_size_mm": {
+        "width": 22,
+        "height": 25,
+        "depth": 5
+      },
+      "asset_path": "/assets/collection/cherry_charm_01.png",
+      "alpha_bounds": [
+        156,
+        115,
+        1079,
+        1121
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "record": "provenance/collection-generation.json",
+        "id": "cherry_charm_01"
+      },
+      "license_note": "AI generated original; not CC0",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "fa9c112e7a59860ca0586f61fca3e9280ca9e9d6b9d85b775b44405a4145f74d",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "cat_ceramic_01",
+      "name": "陶瓷小猫",
+      "category": "toys_charms",
+      "family": "cat",
+      "variant": "original",
+      "material": "ceramic",
+      "physical_size_mm": {
+        "width": 29,
+        "height": 21,
+        "depth": 6
+      },
+      "asset_path": "/assets/collection/cat_ceramic_01.png",
+      "alpha_bounds": [
+        97,
+        145,
+        1289,
+        984
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "record": "provenance/collection-generation.json",
+        "id": "cat_ceramic_01"
+      },
+      "license_note": "AI generated original; not CC0",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "21050ccde0af0da09299684b673a454854eb021d63a7344e993127ead3e1370b",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "candy_rose_01",
+      "name": "草莓糖",
+      "category": "daily_stuff",
+      "family": "candy",
+      "variant": "original",
+      "material": "paper",
+      "physical_size_mm": {
+        "width": 34,
+        "height": 14,
+        "depth": 6
+      },
+      "asset_path": "/assets/collection/candy_rose_01-v3.png",
+      "alpha_bounds": [
+        128,
+        307,
+        1415,
+        731
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "record": "provenance/collection-generation.json",
+        "id": "candy_rose_01"
+      },
+      "license_note": "AI generated original; not CC0",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "058153dfc05e483bc25a42bea94f9b92f58ce2104e422c964fbf0af4ecd2ffdc",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "paper",
+      "status": "prototype_ready",
+      "variants": []
+    },
+    {
+      "id": "daisy_pressed_01",
+      "name": "压花雏菊",
+      "category": "found_outside",
+      "family": "daisy",
+      "variant": "original",
+      "material": "pressed_flower",
+      "physical_size_mm": {
+        "width": 26,
+        "height": 43,
+        "depth": 0.4
+      },
+      "asset_path": "/assets/collection/daisy_pressed_01.png",
+      "alpha_bounds": [
+        225,
+        28,
+        989,
+        1265
+      ],
+      "source_method": "ai_generated",
+      "source": {
+        "record": "provenance/collection-generation.json",
+        "id": "daisy_pressed_01"
+      },
+      "license_note": "AI generated original; not CC0",
+      "allow_partial_overflow": false,
+      "customizable_fields": [],
+      "mvp": true,
+      "sha256": "210b7c6f411842ab803facca8bc178f764aaff616207f13bae31b0354ca0dff6",
+      "needs_cutout": true,
+      "needs_reverse_side": true,
+      "feedback": "soft",
+      "status": "prototype_ready",
+      "variants": []
+    }
+  ],
+  "yours_templates": {
+    "photos": [
+      "postcard",
+      "photobooth_strip",
+      "stamp",
+      "frame"
+    ],
+    "text": [
+      "dymo_label",
+      "handwritten_note",
+      "letter_beads"
+    ],
+    "status": "planned_after_gate_b",
+    "note": "YOURS 是用户内容载体，不计入18件公共物件。"
+  },
+  "memories": [
+    {
+      "id": "memory_cinema",
+      "name": "散场以后",
+      "assetPath": "/memories/memory_cinema.png"
+    },
+    {
+      "id": "memory_hotel",
+      "name": "粉色假期",
+      "assetPath": "/memories/memory_hotel.png"
+    },
+    {
+      "id": "memory_coast",
+      "name": "海边周末",
+      "assetPath": "/memories/memory_coast.png"
+    },
+    {
+      "id": "memory_birthday",
+      "name": "许个愿吧",
+      "assetPath": "/memories/memory_birthday.png"
+    }
+  ],
+  "collection_provenance": [
+    {
+      "id": "cherry_charm_01",
+      "name": "樱桃挂件",
+      "kind": "cutout",
+      "subject": "A tiny original double-cherry resin charm, deep translucent oxblood cherries, moss green leaf and fine antique brass jump ring. Slight handmade irregularity, polished but not toy CGI.",
+      "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A tiny original double-cherry resin charm, deep translucent oxblood cherries, moss green leaf and fine antique brass jump ring. Slight handmade irregularity, polished but not toy CGI. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5bc36aba-c125-4cef-96c9-528da37564c8.png",
+      "assetPath": "/assets/collection/cherry_charm_01.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1226,
+        1283
+      ],
+      "bounds": [
+        156,
+        115,
+        1079,
+        1121
+      ],
+      "mode": "RGBA",
+      "sha256": "fa9c112e7a59860ca0586f61fca3e9280ca9e9d6b9d85b775b44405a4145f74d"
+    },
+    {
+      "id": "cat_ceramic_01",
+      "name": "陶瓷小猫",
+      "kind": "cutout",
+      "subject": "A tiny original handmade ceramic sleeping-cat lucky token, curled compact silhouette, ivory speckled glaze, hand-painted cocoa brown sleeping eyes and small terracotta ears, gentle asymmetric artisan details. No famous cartoon resemblance, no base.",
+      "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A tiny original handmade ceramic sleeping-cat lucky token, curled compact silhouette, ivory speckled glaze, hand-painted cocoa brown sleeping eyes and small terracotta ears, gentle asymmetric artisan details. No famous cartoon resemblance, no base. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-8db9d731-7fc2-4138-8e98-2071491bcee4.png",
+      "assetPath": "/assets/collection/cat_ceramic_01.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1402,
+        1122
+      ],
+      "bounds": [
+        97,
+        145,
+        1289,
+        984
+      ],
+      "mode": "RGBA",
+      "sha256": "21050ccde0af0da09299684b673a454854eb021d63a7344e993127ead3e1370b"
+    },
+    {
+      "id": "candy_rose_01",
+      "name": "草莓糖",
+      "kind": "cutout",
+      "subject": "One tiny strawberry milk candy in a crinkled translucent waxed wrapper with delicate pale rose and cream stripes, twisted ends, no text or logo. Believable inexpensive pocket sweet, tactile paper reflections, subtle foil inside.",
+      "prompt": "Use case: product-mockup. A tiny wrapped strawberry sweet, photographed directly overhead as an isolated game inventory object. MATTE OPAQUE pink-and-ivory gingham PAPER wrapping, small rectangular candy in middle, two short folded paper ends. Dry crumpled paper texture with soft ordinary diffuse daylight from upper left. No transparency in the wrapping, no shiny plastic, no foil. True TRANSPARENT BACKGROUND, crisp alpha silhouette exactly around the paper wrapper. No cast shadow, no glow, no haze, no color bloom, no backlighting, no background. Single item, entire object in frame with generous margins, no text, brand or watermark.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-2cd829f6-d04e-4cc8-aad4-c282e25ab644.png",
+      "assetPath": "/assets/collection/candy_rose_01-v3.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1536,
+        1024
+      ],
+      "bounds": [
+        128,
+        307,
+        1415,
+        731
+      ],
+      "mode": "RGBA",
+      "sha256": "058153dfc05e483bc25a42bea94f9b92f58ce2104e422c964fbf0af4ecd2ffdc",
+      "initialRawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c7bddfd8-bd3b-406b-8564-3e650e1f971d.png",
+      "revision": "Remove all exterior glow and haze; preserve wrapper and true transparent alpha.",
+      "iterations": [
+        {
+          "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c7bddfd8-bd3b-406b-8564-3e650e1f971d.png",
+          "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: One tiny strawberry milk candy in a crinkled translucent waxed wrapper with delicate pale rose and cream stripes, twisted ends, no text or logo. Believable inexpensive pocket sweet, tactile paper reflections, subtle foil inside. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark."
+        },
+        {
+          "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-4c9fb0cb-2682-4896-8efc-731cdf8c2c7c.png",
+          "prompt": "Use case: background-extraction. Edit this single candy sprite: preserve the strawberry-pink striped paper wrapper and candy exactly, but REMOVE ALL glow, haze, halo, cast shadow and backdrop pixels outside the actual physical candy wrapper silhouette. Return true clean transparent alpha everywhere outside the object. No soft bloom, no surrounding colored mist, no shadow. Keep soft upper-left daylight and the original tactile wrapper. The cutout must composite cleanly on a silver metal surface."
+        }
+      ]
+    },
+    {
+      "id": "daisy_pressed_01",
+      "name": "压花雏菊",
+      "kind": "cutout",
+      "subject": "A single small real pressed daisy with imperfect ivory petals, warm ochre center, slender slightly bent green stem and one tiny leaf. Natural dried fibers and delicate translucency, not a botanical illustration.",
+      "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A single small real pressed daisy with imperfect ivory petals, warm ochre center, slender slightly bent green stem and one tiny leaf. Natural dried fibers and delicate translucency, not a botanical illustration. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-ca6fcb7a-5157-4bde-a573-8d03f75ec381.png",
+      "assetPath": "/assets/collection/daisy_pressed_01.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1214,
+        1295
+      ],
+      "bounds": [
+        225,
+        28,
+        989,
+        1265
+      ],
+      "mode": "RGBA",
+      "sha256": "210b7c6f411842ab803facca8bc178f764aaff616207f13bae31b0354ca0dff6"
+    },
+    {
+      "id": "memory_cinema",
+      "name": "散场以后",
+      "kind": "photo",
+      "subject": "A nostalgic 35mm film snapshot of a quiet old small-town cinema entrance at blue hour, warm red light around a blank marquee, a blue bicycle leaned outside, wet pavement reflections. No people, no words, no logos. Deep navy and muted cherry red palette.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A nostalgic 35mm film snapshot of a quiet old small-town cinema entrance at blue hour, warm red light around a blank marquee, a blue bicycle leaned outside, wet pavement reflections. No people, no words, no logos. Deep navy and muted cherry red palette. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-0cd0f8f6-338d-4e6a-805a-187ce2e6b653.png",
+      "assetPath": "/memories/memory_cinema.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1086,
+        1448
+      ],
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "mode": "RGB",
+      "sha256": "5ec595488652c9831ebd20b25132bec21fac352aedd3f75ae059823ca0b533ad"
+    },
+    {
+      "id": "memory_hotel",
+      "name": "粉色假期",
+      "kind": "photo",
+      "subject": "A charming candid 35mm travel photograph of a pastel blush-pink European pension facade, cream shutters, a little striped red awning and window boxes. Slightly off-center framing from street level, hazy afternoon sun, warm pink and buttercream palette. No people, no words, no logos.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A charming candid 35mm travel photograph of a pastel blush-pink European pension facade, cream shutters, a little striped red awning and window boxes. Slightly off-center framing from street level, hazy afternoon sun, warm pink and buttercream palette. No people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-6a6e514d-989d-4e05-a8cb-d64ad9ebe6a4.png",
+      "assetPath": "/memories/memory_hotel.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1086,
+        1448
+      ],
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "mode": "RGB",
+      "sha256": "605740f03b1d3302bf0960e9b0d0ec132f8c634124b04da88255144ddab88c51"
+    },
+    {
+      "id": "memory_coast",
+      "name": "海边周末",
+      "kind": "photo",
+      "subject": "A candid 35mm coastal travel snapshot: pale blue striped beach umbrella and a folded white chair beside calm turquoise sea, sunlit bleached boardwalk in foreground. Airy off-center composition, faded blue, cream and a hint of sage. No people, no words, no logos.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A candid 35mm coastal travel snapshot: pale blue striped beach umbrella and a folded white chair beside calm turquoise sea, sunlit bleached boardwalk in foreground. Airy off-center composition, faded blue, cream and a hint of sage. No people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c696147f-07c3-4329-973f-b53996452399.png",
+      "assetPath": "/memories/memory_coast.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1086,
+        1448
+      ],
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "mode": "RGB",
+      "sha256": "96e6d8d2467e5dbd6d3ce0fb6d91eb0430540cb411e55069db3b350394c8a079"
+    },
+    {
+      "id": "memory_birthday",
+      "name": "许个愿吧",
+      "kind": "photo",
+      "subject": "A close candid 35mm snapshot of a small homemade strawberry cream birthday cake, a single slim red candle, a few cherries, on a butter-yellow plate over a pale pink gingham cloth. Cropped intimate framing, warm natural side light, no people, no words, no logos.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A close candid 35mm snapshot of a small homemade strawberry cream birthday cake, a single slim red candle, a few cherries, on a butter-yellow plate over a pale pink gingham cloth. Cropped intimate framing, warm natural side light, no people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-721bf1a9-1d95-4634-8938-48b43a78ac4a.png",
+      "assetPath": "/memories/memory_birthday.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "size": [
+        1086,
+        1448
+      ],
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "mode": "RGB",
+      "sha256": "cbc11bbd7c17a93a48c2efb6676313558d285baa430cc886c17010c983a48672"
+    }
+  ],
+  "object_variants": {
+    "glasses": [
+      {
+        "id": "default",
+        "label": "琥珀"
+      },
+      {
+        "id": "glasses_sage",
+        "label": "鼠尾草",
+        "path": "/assets/variants/glasses_sage.png",
+        "bounds": [
+          35,
+          477,
+          1220,
+          777
+        ]
+      },
+      {
+        "id": "glasses_wire",
+        "label": "香槟金",
+        "path": "/assets/variants/glasses_wire.png",
+        "bounds": [
+          36,
+          470,
+          1218,
+          783
+        ]
+      }
+    ],
+    "scrunchie": [
+      {
+        "id": "default",
+        "label": "蓝格"
+      },
+      {
+        "id": "scrunchie_rose",
+        "label": "藕粉",
+        "path": "/assets/variants/scrunchie_rose.png",
+        "bounds": [
+          137,
+          112,
+          1174,
+          1143
+        ]
+      },
+      {
+        "id": "scrunchie_sage",
+        "label": "草绿",
+        "path": "/assets/variants/scrunchie_sage.png",
+        "bounds": [
+          136,
+          111,
+          1170,
+          1142
+        ]
+      }
+    ],
+    "orchid": [
+      {
+        "id": "default",
+        "label": "奶油白"
+      },
+      {
+        "id": "orchid_blush",
+        "label": "浅粉",
+        "path": "/assets/variants/orchid_blush.png",
+        "bounds": [
+          42,
+          77,
+          1215,
+          1138
+        ]
+      },
+      {
+        "id": "orchid_butter",
+        "label": "奶油黄",
+        "path": "/assets/variants/orchid_butter.png",
+        "bounds": [
+          41,
+          76,
+          1214,
+          1138
+        ]
+      }
+    ],
+    "plush": [
+      {
+        "id": "default",
+        "label": "燕麦小熊",
+        "path": "/assets/variants/plush_oat.png",
+        "bounds": [
+          195,
+          112,
+          946,
+          1267
+        ]
+      },
+      {
+        "id": "plush_rabbit",
+        "label": "苔绿小兔",
+        "path": "/assets/variants/plush_rabbit.png",
+        "bounds": [
+          38,
+          33,
+          1159,
+          1273
+        ]
+      }
+    ]
+  },
+  "variant_provenance": [
+    {
+      "id": "glasses_sage",
+      "ref": "glasses_tortoise_01.png",
+      "subject": "Create an alternative pair of slim translucent olive-sage acetate reading glasses with softly squared rectangular lenses. Same folded-temple arrangement and horizontal top-down orientation; clear lenses should be genuinely transparent, not white opaque fills. Original understated unbranded design.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Create an alternative pair of slim translucent olive-sage acetate reading glasses with softly squared rectangular lenses. Same folded-temple arrangement and horizontal top-down orientation; clear lenses should be genuinely transparent, not white opaque fills. Original understated unbranded design. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-0177f83b-434f-44ab-98ba-e7d75b00a12a.png",
+      "assetPath": "/assets/variants/glasses_sage.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        35,
+        477,
+        1220,
+        777
+      ],
+      "sha256": "48581bd77153dcdc0954eb10a8cc3f6573f56c6667bb22f3a9c35b7ff5e5bd2d"
+    },
+    {
+      "id": "glasses_wire",
+      "ref": "glasses_tortoise_01.png",
+      "subject": "Create an alternative pair of delicate rounded champagne metal wire reading glasses, folded temples, subtle nose pads, same directly top-down horizontal orientation. Real thin metallic frame, genuinely transparent clear lenses rather than opaque white. Elegant secondhand pocket object, no brand.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Create an alternative pair of delicate rounded champagne metal wire reading glasses, folded temples, subtle nose pads, same directly top-down horizontal orientation. Real thin metallic frame, genuinely transparent clear lenses rather than opaque white. Elegant secondhand pocket object, no brand. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-6f796a26-b18a-4136-a689-77d59e2cc63c.png",
+      "assetPath": "/assets/variants/glasses_wire.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        36,
+        470,
+        1218,
+        783
+      ],
+      "sha256": "a70d1e47396d1f244ac38f0f64e81f259473684389e8464d75a3af7059c39ba6"
+    },
+    {
+      "id": "scrunchie_rose",
+      "ref": "scrunchie_blue_01.png",
+      "subject": "Change ONLY the blue gingham color to soft dusty rose pink and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the blue gingham color to soft dusty rose pink and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-d62ef962-b615-4542-bdbb-da2c946d4362.png",
+      "assetPath": "/assets/variants/scrunchie_rose.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        137,
+        112,
+        1174,
+        1143
+      ],
+      "sha256": "7729751cf33786283e64e5057ffd8f8b101076428681b5699f5d20a1bdd9d140"
+    },
+    {
+      "id": "scrunchie_sage",
+      "ref": "scrunchie_blue_01.png",
+      "subject": "Change ONLY the blue gingham color to muted sage green and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the blue gingham color to muted sage green and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5f82325e-63fa-47e7-8409-a3cd6bcb8520.png",
+      "assetPath": "/assets/variants/scrunchie_sage.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        136,
+        111,
+        1170,
+        1142
+      ],
+      "sha256": "0c5cc4ad751479e77cbe612b9bc4a6cc7a502090e0c74cdbf96b836fc157f7fd"
+    },
+    {
+      "id": "orchid_blush",
+      "ref": "orchid_cream_01.png",
+      "subject": "Change ONLY the creamy white orchid petals to a subtle blush pink phalaenopsis with slightly darker pink delicate central veins. Preserve real petal texture, natural yellow-burgundy center, silhouette, lighting and true transparent background.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the creamy white orchid petals to a subtle blush pink phalaenopsis with slightly darker pink delicate central veins. Preserve real petal texture, natural yellow-burgundy center, silhouette, lighting and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c9402c2a-5c9d-4c09-9f85-f2012a0fdf4e.png",
+      "assetPath": "/assets/variants/orchid_blush.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        42,
+        77,
+        1215,
+        1138
+      ],
+      "sha256": "a3b6d9528715772aab2e005f4727c1a5b26c132fdfb5003b6f3152921ff57a29"
+    },
+    {
+      "id": "orchid_butter",
+      "ref": "orchid_cream_01.png",
+      "subject": "Change ONLY the creamy white orchid petals to very pale butter yellow phalaenopsis. Restrained natural botanical color, preserve texture, yellow-burgundy center, same silhouette and lighting, true transparent background.",
+      "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the creamy white orchid petals to very pale butter yellow phalaenopsis. Restrained natural botanical color, preserve texture, yellow-burgundy center, same silhouette and lighting, true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-bf428821-7550-40cf-baa9-c4e20e766c43.png",
+      "assetPath": "/assets/variants/orchid_butter.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        41,
+        76,
+        1214,
+        1138
+      ],
+      "sha256": "aef69334ba43176e70c9475ce6e17209b8c8f67c69e7b9b81d9032133d0ee761"
+    },
+    {
+      "id": "clover_real",
+      "subject": "One real gently pressed four-leaf clover botanical specimen, four subtly heart-shaped asymmetrical natural leaves, soft desaturated meadow green, pale crescent markings and very fine branching veins, slightly curled thin edges, a slender curved stem. Natural tiny blemishes, photographed not illustrated. The four leaves should lie individually visible flat, one cluster and one stem, no soil or other objects.",
+      "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One real gently pressed four-leaf clover botanical specimen, four subtly heart-shaped asymmetrical natural leaves, soft desaturated meadow green, pale crescent markings and very fine branching veins, slightly curled thin edges, a slender curved stem. Natural tiny blemishes, photographed not illustrated. The four leaves should lie individually visible flat, one cluster and one stem, no soil or other objects. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5177f008-a206-451e-ace9-4499047bd8b3.png",
+      "assetPath": "/assets/variants/clover_real.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        145,
+        63,
+        1121,
+        1230
+      ],
+      "sha256": "69718d10aebe703a9843732f27d3d507e7481d2e9093f87055a3e087bf6311f2"
+    },
+    {
+      "id": "plush_oat",
+      "subject": "One tiny original handmade teddy bear bag charm, front facing upward flat, warm oatmeal short-pile cotton velour, small round ears, pear-shaped soft body, tiny dark brown embroidered seed eyes, short stitched nose, one small muted blue linen patch on belly and a discreet brass hanging loop. Tasteful contemporary artisan toy, slightly imperfect visible hand stitches, charming calm expression. Real textile photo not toy 3D render, not an existing character.",
+      "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One tiny original handmade teddy bear bag charm, front facing upward flat, warm oatmeal short-pile cotton velour, small round ears, pear-shaped soft body, tiny dark brown embroidered seed eyes, short stitched nose, one small muted blue linen patch on belly and a discreet brass hanging loop. Tasteful contemporary artisan toy, slightly imperfect visible hand stitches, charming calm expression. Real textile photo not toy 3D render, not an existing character. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-982f79f0-0681-4ba5-9170-56a6ea6a5f43.png",
+      "assetPath": "/assets/variants/plush_oat.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        195,
+        112,
+        946,
+        1267
+      ],
+      "sha256": "9d34a030cdc09b13a0e3e1e42f021fd04b41425cc929e7f8e01fd7f37fea9eac"
+    },
+    {
+      "id": "plush_rabbit",
+      "subject": "One tiny original handmade rabbit bag charm, front facing upward flat, sage-gray short-pile cotton velour, two relaxed softly drooping long ears, pear-shaped body, small dark brown embroidered seed eyes, stitched tiny nose, a small ivory linen star patch on belly and a discreet brass hanging loop. Tasteful artisan handmade collectible, slightly imperfect hand stitches, real textile photo not toy 3D render, not an existing character.",
+      "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One tiny original handmade rabbit bag charm, front facing upward flat, sage-gray short-pile cotton velour, two relaxed softly drooping long ears, pear-shaped body, small dark brown embroidered seed eyes, stitched tiny nose, a small ivory linen star patch on belly and a discreet brass hanging loop. Tasteful artisan handmade collectible, slightly imperfect hand stitches, real textile photo not toy 3D render, not an existing character. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+      "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-d18eaafe-0ea4-4414-94ed-e84f0fdc6d87.png",
+      "assetPath": "/assets/variants/plush_rabbit.png",
+      "tool": "built-in image_gen",
+      "date": "2026-09-24",
+      "bounds": [
+        38,
+        33,
+        1159,
+        1273
+      ],
+      "sha256": "b8b2231cd4be950351e85ac34df0c7f4371351803f0fdaf55486cc1a33a701b9"
+    }
+  ],
+  "style_presets": [
+    "midnight",
+    "grand",
+    "letters",
+    "weekend",
+    "birthday"
+  ],
+  "materials": [
+    {
+      "id": "cable-knit-ivory",
+      "asset_path": "/materials/cable-knit-ivory.png",
+      "source": "provenance/knit-generation.json",
+      "license": "AI generated original; not CC0"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Pinyon Script",
+      "source": "https://github.com/google/fonts/tree/main/ofl/pinyonscript",
+      "license": "fonts/PinyonScript-OFL.txt"
+    },
+    {
+      "family": "Ma Shan Zheng",
+      "source": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
+      "license": "fonts/MaShanZheng-OFL.txt"
+    }
+  ]
+}

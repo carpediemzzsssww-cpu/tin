@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "project": "TIN",
+  "gate": "B material sample review",
+  "direction": "A silver everyday collection",
+  "tool": "built-in image_gen__imagegen",
+  "mode": "built-in generation and edits; no CLI/API fallback",
+  "started_at_utc": "2026-09-24T01:37:29Z",
+  "completed_at_utc": "2026-09-24T01:48:30Z",
+  "postprocessing": "Only copies from built-in output path. No Python or other pixel editing, extraction, masking, color change, or resampling.",
+  "qa_status": "Review samples. True alpha verified. Remaining edge artifacts documented; not marked production-final.",
+  "assets": [
+    {
+      "id": "key_silver_01",
+      "selected_asset_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01-v3.png",
+      "qa_notes": [
+        "Silhouette, grooves, key hole and realistic metal wear visually verified.",
+        "Tiny warm-colored edge fringes remain at full resolution; acceptable for review only, inspect at target mobile scale."
+      ],
+      "calls": [
+        {
+          "version": 1,
+          "prompt": "Use case: product-mockup. Asset type: single realistic photographic sprite for a small personal keepsake tin web experience.\nScene/backdrop: genuinely transparent PNG alpha background, no white plane, no gray plane, no checkerboard image, no background pixels or shadow on background. The asset must be a clean isolated cutout.\nCamera/composition: almost straight top-down, camera exactly 12 degrees away from the surface normal, long lens minimal perspective distortion. Whole object centered and fully visible with 12 percent safe transparent margin on every edge. One asset only.\nLighting: large soft 5000K neutral light from upper left of image; tiny local contact darkening within object, no cast shadow onto background.\nStyle: believable ordinary everyday product photography, real materials and slight use, never clay, cartoon, toy-like CG or illustration.\nConstraints: absolutely no brand, logo, watermark, label, text or packaging. Preserve true transparent alpha in all holes.\nSubject: One ordinary unbranded worn silver house door key, physically about 55 by 22 mm. Real machined nickel-plated metal with fine scratches, plausible flat grooved shaft, conventional teeth along one edge and one clearly punched hole in its roundish bow. Lie flat seen from above. Long axis nearly vertical leaning toward upper right by no more than 10 degrees. No keyring.",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-b304f6b3-80e8-487a-ac44-1454eddd5f2e.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01.png",
+          "notes": "First-generation output; preserved."
+        },
+        {
+          "version": 2,
+          "prompt": "Use case: background-extraction.\nInput image: edit target, existing key_silver_01 sprite.\nPrimary request: clean the alpha cutout and framing ONLY. Preserve the exact object, details, colors, neutral upper-left lighting, geometry, quantity and camera angle.\nRemove ALL glowing halos, cast shadows, gray haze and any non-object pixels outside the physical object. Empty holes through the object must be zero alpha. The exterior background MUST be truly transparent (alpha 0), not black, white or checkerboard. Keep opaque metal, plastic, fabric and wire opaque within their shapes; keep physically translucent clear plastic naturally translucent. Keep fine fibers and thin wires connected and natural with clean anti-aliased edges, no bright white fringe or stray colored fragments.\nReframe the complete object, unchanged, centered inside a square canvas with at least 12 percent fully transparent empty margin on EACH side. Do not clip the object. No new objects, no text, no watermark.\nThis is an isolated product texture that will be placed on arbitrary colored backgrounds; no environment lighting or backdrop may leak outside the silhouette.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-fbecf64b-0748-4c6a-acd3-779d6a588a25.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01-v2.png",
+          "notes": "Alpha/background cleanup and framing edit."
+        },
+        {
+          "version": 3,
+          "prompt": "Use case: precise-object-edit. Edit the attached isolated transparent product image. Make only ONE change: uniformly shrink the complete existing object to 70 percent of its current pixel size, positioned exactly at the center of the SAME square image canvas. The object must now occupy at most 70 percent of canvas height AND at most 70 percent of canvas width, leaving a wide, fully transparent border. Keep the entire object and all its existing details, geometry, color and viewpoint. Keep true PNG alpha transparency. Set all non-object background pixels and open holes to alpha zero; remove any detached stray speckles. No visible background, no halo, no shadow, no extra objects, no text. Do not enlarge or recrop the canvas around the object: preserve the square canvas and make the object noticeably smaller within it.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01-v2.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-42eaefbb-38e1-445e-ae34-c17bcd2417e7.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/key_silver_01-v3.png",
+          "notes": "Subject size reduction within same square transparent canvas."
+        }
+      ],
+      "image_analysis": {
+        "size_px": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "c9ec5589ae763b03eceb6d1102753ed437e3ffbf5b383b80158fa6286a2f26f0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bounds_gt8": [
+          490,
+          302,
+          768,
+          980
+        ],
+        "alpha_bounds_gt8_normalized": [
+          0.39075,
+          0.240829,
+          0.61244,
+          0.781499
+        ],
+        "subject_bounds_width_ratio": 0.221691,
+        "subject_bounds_height_ratio": 0.54067,
+        "subject_pixels_gt8_ratio": 0.061328,
+        "low_alpha_pixels_1_to_8": 3825,
+        "transparent_pixels_alpha0": 1472252,
+        "pixels_alpha_gt8": 96439
+      }
+    },
+    {
+      "id": "dice_red_01",
+      "selected_asset_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/dice_red_01-v2.png",
+      "qa_notes": [
+        "Top face has correct five-pip pattern; thin visible side faces and red plastic verified.",
+        "Very low-alpha detached speckles remain in transparent margin; no pixel cleanup applied."
+      ],
+      "calls": [
+        {
+          "version": 1,
+          "prompt": "Use case: product-mockup. Asset type: single realistic photographic sprite for a small personal keepsake tin web experience.\nScene/backdrop: genuinely transparent PNG alpha background, no white plane, no gray plane, no checkerboard image, no background pixels or shadow on background. The asset must be a clean isolated cutout.\nCamera/composition: almost straight top-down, camera exactly 12 degrees away from the surface normal, long lens minimal perspective distortion. Whole object centered and fully visible with 12 percent safe transparent margin on every edge. One asset only.\nLighting: large soft 5000K neutral light from upper left of image; tiny local contact darkening within object, no cast shadow onto background.\nStyle: believable ordinary everyday product photography, real materials and slight use, never clay, cartoon, toy-like CG or illustration.\nConstraints: absolutely no brand, logo, watermark, label, text or packaging. Preserve true transparent alpha in all holes.\nSubject: One 16 mm red opaque glossy plastic die with real recessed white pips. Its upward square face has exactly five white pips in the standard four-corners-plus-center pattern. Near-orthographic top view, showing only a very thin edge of the side faces. Slightly softened square corners, real molded plastic, tiny believable scuffs. No exaggerated rounded cube.",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-12cf486d-ea18-4486-a8a0-910fab5eed4d.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/dice_red_01.png",
+          "notes": "First-generation output; preserved."
+        },
+        {
+          "version": 2,
+          "prompt": "Use case: background-extraction.\nInput image: edit target, existing dice_red_01 sprite.\nPrimary request: clean the alpha cutout and framing ONLY. Preserve the exact object, details, colors, neutral upper-left lighting, geometry, quantity and camera angle.\nRemove ALL glowing halos, cast shadows, gray haze and any non-object pixels outside the physical object. Empty holes through the object must be zero alpha. The exterior background MUST be truly transparent (alpha 0), not black, white or checkerboard. Keep opaque metal, plastic, fabric and wire opaque within their shapes; keep physically translucent clear plastic naturally translucent. Keep fine fibers and thin wires connected and natural with clean anti-aliased edges, no bright white fringe or stray colored fragments.\nReframe the complete object, unchanged, centered inside a square canvas with at least 12 percent fully transparent empty margin on EACH side. Do not clip the object. No new objects, no text, no watermark.\nThis is an isolated product texture that will be placed on arbitrary colored backgrounds; no environment lighting or backdrop may leak outside the silhouette.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/dice_red_01.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-c8f48812-d286-455f-a729-7f45fedd8729.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/dice_red_01-v2.png",
+          "notes": "Alpha/background cleanup and framing edit."
+        }
+      ],
+      "image_analysis": {
+        "size_px": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "3eaa8f0eebd712c0047e904f878fdf9f36c279181aa7c18e9fef9e480a48f517",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bounds_gt8": [
+          199,
+          199,
+          1057,
+          1050
+        ],
+        "alpha_bounds_gt8_normalized": [
+          0.158692,
+          0.158692,
+          0.842903,
+          0.837321
+        ],
+        "subject_bounds_width_ratio": 0.684211,
+        "subject_bounds_height_ratio": 0.678628,
+        "subject_pixels_gt8_ratio": 0.44736,
+        "low_alpha_pixels_1_to_8": 10623,
+        "transparent_pixels_alpha0": 858413,
+        "pixels_alpha_gt8": 703480
+      }
+    },
+    {
+      "id": "plush_gray_01",
+      "selected_asset_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01-v3.png",
+      "qa_notes": [
+        "Two ears, arms, legs, metal ring and fabric fibers verified.",
+        "Tiny yellow/red edge fragments and low-alpha speckles remain; final production edge cleanup still required."
+      ],
+      "calls": [
+        {
+          "version": 1,
+          "prompt": "Use case: product-mockup. Asset type: single realistic photographic sprite for a small personal keepsake tin web experience.\nScene/backdrop: genuinely transparent PNG alpha background, no white plane, no gray plane, no checkerboard image, no background pixels or shadow on background. The asset must be a clean isolated cutout.\nCamera/composition: almost straight top-down, camera exactly 12 degrees away from the surface normal, long lens minimal perspective distortion. Whole object centered and fully visible with 12 percent safe transparent margin on every edge. One asset only.\nLighting: large soft 5000K neutral light from upper left of image; tiny local contact darkening within object, no cast shadow onto background.\nStyle: believable ordinary everyday product photography, real materials and slight use, never clay, cartoon, toy-like CG or illustration.\nConstraints: absolutely no brand, logo, watermark, label, text or packaging. Preserve true transparent alpha in all holes.\nSubject: One tiny ordinary unbranded gray bear plush keychain, about 48 by 38 mm, lying flat. Anatomically two small round ears, two short arms and two short legs, ordinary teddy proportions, sewn seams and individual soft gray fibers, small plain black stitched eyes and nose. A clear small silver metal attachment ring above its head. Must look like an inexpensive ordinary handmade bear, not any famous character. Top view of its front.",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-6f69bc8c-5c84-4ca3-84f4-4c64da948640.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01.png",
+          "notes": "First-generation output; preserved."
+        },
+        {
+          "version": 2,
+          "prompt": "Use case: background-extraction.\nInput image: edit target, existing plush_gray_01 sprite.\nPrimary request: clean the alpha cutout and framing ONLY. Preserve the exact object, details, colors, neutral upper-left lighting, geometry, quantity and camera angle.\nRemove ALL glowing halos, cast shadows, gray haze and any non-object pixels outside the physical object. Empty holes through the object must be zero alpha. The exterior background MUST be truly transparent (alpha 0), not black, white or checkerboard. Keep opaque metal, plastic, fabric and wire opaque within their shapes; keep physically translucent clear plastic naturally translucent. Keep fine fibers and thin wires connected and natural with clean anti-aliased edges, no bright white fringe or stray colored fragments.\nReframe the complete object, unchanged, centered inside a square canvas with at least 12 percent fully transparent empty margin on EACH side. Do not clip the object. No new objects, no text, no watermark.\nThis is an isolated product texture that will be placed on arbitrary colored backgrounds; no environment lighting or backdrop may leak outside the silhouette.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-1d18a0ba-01c6-4ec1-8cde-37f0c0519354.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01-v2.png",
+          "notes": "Alpha/background cleanup and framing edit."
+        },
+        {
+          "version": 3,
+          "prompt": "Use case: precise-object-edit. Edit the attached isolated transparent product image. Make only ONE change: uniformly shrink the complete existing object to 70 percent of its current pixel size, positioned exactly at the center of the SAME square image canvas. The object must now occupy at most 70 percent of canvas height AND at most 70 percent of canvas width, leaving a wide, fully transparent border. Keep the entire object and all its existing details, geometry, color and viewpoint. Keep true PNG alpha transparency. Set all non-object background pixels and open holes to alpha zero; remove any detached stray speckles. No visible background, no halo, no shadow, no extra objects, no text. Do not enlarge or recrop the canvas around the object: preserve the square canvas and make the object noticeably smaller within it.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01-v2.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-66d99422-9613-4e31-8c9f-08800f2fac85.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/plush_gray_01-v3.png",
+          "notes": "Subject size reduction within same square transparent canvas."
+        }
+      ],
+      "image_analysis": {
+        "size_px": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "a75f9882e0362038a07cc6834eceffd876e931df6a2dbaebc2f3803f213de7b3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bounds_gt8": [
+          362,
+          246,
+          903,
+          1031
+        ],
+        "alpha_bounds_gt8_normalized": [
+          0.288676,
+          0.196172,
+          0.720096,
+          0.822169
+        ],
+        "subject_bounds_width_ratio": 0.431419,
+        "subject_bounds_height_ratio": 0.625997,
+        "subject_pixels_gt8_ratio": 0.168434,
+        "low_alpha_pixels_1_to_8": 6939,
+        "transparent_pixels_alpha0": 1300712,
+        "pixels_alpha_gt8": 264865
+      }
+    },
+    {
+      "id": "earphones_white_coiled_01",
+      "selected_asset_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01-v3.png",
+      "qa_notes": [
+        "Two ear tips, Y-junction, one remote and one audio plug verified; cable joins visually continuous.",
+        "White edge fringe remains around wire and some low-alpha speckles remain; gate review sample, not final alpha-clean production texture."
+      ],
+      "calls": [
+        {
+          "version": 1,
+          "prompt": "Use case: product-mockup. Asset type: single realistic photographic sprite for a small personal keepsake tin web experience.\nScene/backdrop: genuinely transparent PNG alpha background, no white plane, no gray plane, no checkerboard image, no background pixels or shadow on background. The asset must be a clean isolated cutout.\nCamera/composition: almost straight top-down, camera exactly 12 degrees away from the surface normal, long lens minimal perspective distortion. Whole object centered and fully visible with 12 percent safe transparent margin on every edge. One asset only.\nLighting: large soft 5000K neutral light from upper left of image; tiny local contact darkening within object, no cast shadow onto background.\nStyle: believable ordinary everyday product photography, real materials and slight use, never clay, cartoon, toy-like CG or illustration.\nConstraints: absolutely no brand, logo, watermark, label, text or packaging. Preserve true transparent alpha in all holes.\nSubject: One complete pair of unbranded white wired in-ear earphones lying flat in a loose natural half-coil occupying about 64 by 60 mm. Exactly two separate silicone-tipped earpieces, each joined by a thin continuous cable into ONE Y-junction, then ONE continuous common cable with ONE simple inline remote and terminating in ONE silver 3.5 mm audio plug. Real soft white rubber, consistent thin wire diameter. The topology must be correct and visibly continuous. All thin wires and open gaps have true alpha; nothing clipped. No extra loops disconnected from the wire, no duplicates.",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-4c5335ae-5064-4e18-a60f-561ae25be85b.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01.png",
+          "notes": "First-generation output; preserved."
+        },
+        {
+          "version": 2,
+          "prompt": "Use case: background-extraction.\nInput image: edit target, existing earphones_white_coiled_01 sprite.\nPrimary request: clean the alpha cutout and framing ONLY. Preserve the exact object, details, colors, neutral upper-left lighting, geometry, quantity and camera angle.\nRemove ALL glowing halos, cast shadows, gray haze and any non-object pixels outside the physical object. Empty holes through the object must be zero alpha. The exterior background MUST be truly transparent (alpha 0), not black, white or checkerboard. Keep opaque metal, plastic, fabric and wire opaque within their shapes; keep physically translucent clear plastic naturally translucent. Keep fine fibers and thin wires connected and natural with clean anti-aliased edges, no bright white fringe or stray colored fragments.\nReframe the complete object, unchanged, centered inside a square canvas with at least 12 percent fully transparent empty margin on EACH side. Do not clip the object. No new objects, no text, no watermark.\nThis is an isolated product texture that will be placed on arbitrary colored backgrounds; no environment lighting or backdrop may leak outside the silhouette.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-655c3777-1a54-4b45-ba9d-42b84556ada3.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01-v2.png",
+          "notes": "Alpha/background cleanup and framing edit."
+        },
+        {
+          "version": 3,
+          "prompt": "Use case: precise-object-edit. Edit the attached isolated transparent product image. Make only ONE change: uniformly shrink the complete existing object to 70 percent of its current pixel size, positioned exactly at the center of the SAME square image canvas. The object must now occupy at most 70 percent of canvas height AND at most 70 percent of canvas width, leaving a wide, fully transparent border. Keep the entire object and all its existing details, geometry, color and viewpoint. Keep true PNG alpha transparency. Set all non-object background pixels and open holes to alpha zero; remove any detached stray speckles. No visible background, no halo, no shadow, no extra objects, no text. Do not enlarge or recrop the canvas around the object: preserve the square canvas and make the object noticeably smaller within it.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01-v2.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-642db00f-f422-43ca-b40b-e521c3f5f855.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01-v3.png",
+          "notes": "Subject size reduction within same square transparent canvas."
+        }
+      ],
+      "image_analysis": {
+        "size_px": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "e480725eb91debadd9d4ff647e4163f09d6fb356b15e06fdbf62e10e3b61481e",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bounds_gt8": [
+          318,
+          324,
+          973,
+          973
+        ],
+        "alpha_bounds_gt8_normalized": [
+          0.253589,
+          0.258373,
+          0.775917,
+          0.775917
+        ],
+        "subject_bounds_width_ratio": 0.522329,
+        "subject_bounds_height_ratio": 0.517544,
+        "subject_pixels_gt8_ratio": 0.057057,
+        "low_alpha_pixels_1_to_8": 13538,
+        "transparent_pixels_alpha0": 1469255,
+        "pixels_alpha_gt8": 89723
+      }
+    },
+    {
+      "id": "blister_clear_01",
+      "selected_asset_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01-v3.png",
+      "qa_notes": [
+        "Six compartments in two columns and three rows; open holes genuinely alpha-transparent.",
+        "Selected dimensions must be width 32mm × height 50mm.",
+        "Foil backing dominates; transparent plastic effect reads through highlights, not full scene refraction.",
+        "Tiny colored edge fragments remain; gate review sample."
+      ],
+      "calls": [
+        {
+          "version": 1,
+          "prompt": "Use case: product-mockup. Asset type: single realistic photographic sprite for a small personal keepsake tin web experience.\nScene/backdrop: genuinely transparent PNG alpha background, no white plane, no gray plane, no checkerboard image, no background pixels or shadow on background. The asset must be a clean isolated cutout.\nCamera/composition: almost straight top-down, camera exactly 12 degrees away from the surface normal, long lens minimal perspective distortion. Whole object centered and fully visible with 12 percent safe transparent margin on every edge. One asset only.\nLighting: large soft 5000K neutral light from upper left of image; tiny local contact darkening within object, no cast shadow onto background.\nStyle: believable ordinary everyday product photography, real materials and slight use, never clay, cartoon, toy-like CG or illustration.\nConstraints: absolutely no brand, logo, watermark, label, text or packaging. Preserve true transparent alpha in all holes.\nSubject: One small unbranded used clear plastic blister card about 50 by 32 mm. Exactly two columns by three rows of six unmarked clear round raised domed compartments, no pills or medicine visible. Some bubbles have been pressed open, revealing small holes through torn-away backing aluminum; the remaining underside has just a little plain silver foil. Transparent thin thermoformed plastic walls clearly readable from highlights and refraction, smooth transparent edges, slight use wear. Neutral clear material, no yellow or purple color cast, no elaborate embossing or pattern. No words, names, doses or numbers.",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-05721786-0046-466f-9f27-6a10caaa3ea8.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01.png",
+          "notes": "First-generation output; preserved."
+        },
+        {
+          "version": 2,
+          "prompt": "Use case: background-extraction.\nInput image: edit target, existing blister_clear_01 sprite.\nPrimary request: clean the alpha cutout and framing ONLY. Preserve the exact object, details, colors, neutral upper-left lighting, geometry, quantity and camera angle.\nRemove ALL glowing halos, cast shadows, gray haze and any non-object pixels outside the physical object. Empty holes through the object must be zero alpha. The exterior background MUST be truly transparent (alpha 0), not black, white or checkerboard. Keep opaque metal, plastic, fabric and wire opaque within their shapes; keep physically translucent clear plastic naturally translucent. Keep fine fibers and thin wires connected and natural with clean anti-aliased edges, no bright white fringe or stray colored fragments.\nReframe the complete object, unchanged, centered inside a square canvas with at least 12 percent fully transparent empty margin on EACH side. Do not clip the object. No new objects, no text, no watermark.\nThis is an isolated product texture that will be placed on arbitrary colored backgrounds; no environment lighting or backdrop may leak outside the silhouette.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-3f3e9edf-9c63-47cc-b951-d4cff8b97a64.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01-v2.png",
+          "notes": "Alpha/background cleanup and framing edit."
+        },
+        {
+          "version": 3,
+          "prompt": "Use case: precise-object-edit. Edit the attached isolated transparent product image. Make only ONE change: uniformly shrink the complete existing object to 70 percent of its current pixel size, positioned exactly at the center of the SAME square image canvas. The object must now occupy at most 70 percent of canvas height AND at most 70 percent of canvas width, leaving a wide, fully transparent border. Keep the entire object and all its existing details, geometry, color and viewpoint. Keep true PNG alpha transparency. Set all non-object background pixels and open holes to alpha zero; remove any detached stray speckles. No visible background, no halo, no shadow, no extra objects, no text. Do not enlarge or recrop the canvas around the object: preserve the square canvas and make the object noticeably smaller within it.",
+          "input_image": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01-v2.png",
+          "source": "/Users/xiaofushan/.codex/generated_images/01a0d10d-b3a0-75b2-9b6a-37f853785aba/exec-9830095b-c4fb-42df-a64c-2dad818d09b9.png",
+          "workspace_path": "/Users/xiaofushan/Desktop/tin/research/samples/assets/blister_clear_01-v3.png",
+          "notes": "Subject size reduction within same square transparent canvas."
+        }
+      ],
+      "image_analysis": {
+        "size_px": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "ab2eadfbf515abfde4b9793481b0012de64557a7811126a7fefd390072dd697a",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bounds_gt8": [
+          397,
+          306,
+          858,
+          988
+        ],
+        "alpha_bounds_gt8_normalized": [
+          0.316587,
+          0.244019,
+          0.684211,
+          0.787879
+        ],
+        "subject_bounds_width_ratio": 0.367624,
+        "subject_bounds_height_ratio": 0.54386,
+        "subject_pixels_gt8_ratio": 0.181565,
+        "low_alpha_pixels_1_to_8": 8473,
+        "transparent_pixels_alpha0": 1278529,
+        "pixels_alpha_gt8": 285514
+      }
+    }
+  ]
+}

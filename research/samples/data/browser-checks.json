@@ -1,0 +1,46 @@
+{
+  "engine": "Chromium",
+  "date": "2026-09-24",
+  "actual_phone_tested": false,
+  "loaded": 6,
+  "inventory_rows": 18,
+  "broken_images": 0,
+  "lid_close_reopen": true,
+  "background_modes": 3,
+  "ticket_edit_and_escape": true,
+  "inventory_details": true,
+  "local_resource_status": {
+    "data/inventory.json": 200,
+    "ASSET_INVENTORY.md": 200,
+    "generation-log.json": 200,
+    "assets/generation-log.json": 200,
+    "tin-model.js": 200,
+    "paper-template.js": 200,
+    "vendor/THREE-LICENSE.txt": 200
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1100,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "horizontal_overflow": false
+    }
+  ],
+  "reduced_motion": true,
+  "webgl_fallback": true,
+  "asset_load_failure": true,
+  "research_board_40_refs": true,
+  "art_bible_updated": true,
+  "javascript_exceptions": [],
+  "long_chinese_ticket_fields_fit": true,
+  "qa_document_status": 200
+}

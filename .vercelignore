@@ -1,0 +1,12 @@
+.git
+.codex
+.playwright-cli
+output
+artifacts
+research
+TIN_Product_Concept_Agent_Brief_v0.1.md
+tin-app/node_modules
+tin-app/dist
+tin-app/output
+tin-app/minitool
+*.zip

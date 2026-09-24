@@ -1,0 +1,27 @@
+{
+  "gate_a": {
+    "status": "approved",
+    "direction": "A",
+    "user_instruction": "A吧继续推进",
+    "approved_at": "2026-09-24"
+  },
+  "gate_b": {
+    "status": "approved_with_revisions",
+    "user_instruction": "不错不错继续推进，盒盖开闭有些穿模可以处理一下，另外盒子最好是长一点的那种",
+    "approved_at": "2026-09-24",
+    "revisions": [
+      "140 × 90 mm landscape tin",
+      "upward hinge without clipping",
+      "personal photo and text composition"
+    ],
+    "prototype_ready": true,
+    "real_phone_verified": false
+  },
+  "tabletop": "light_gray_hard_surface",
+  "lining": "white_folded_paper",
+  "tabletop_options": [
+    "light_gray",
+    "wine_knit_original",
+    "notebook_original"
+  ]
+}

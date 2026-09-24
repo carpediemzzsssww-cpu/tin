@@ -1,0 +1,57 @@
+{
+  "created": "2026-09-24",
+  "tool": "image_gen.imagegen",
+  "direction": "A silver everyday collection; unbranded; generated, not CC0",
+  "assets": [
+    {
+      "id": "dice_ivory_01",
+      "prompt": "Use case: precise-object-edit. Edit target: attached red die sprite. Change ONLY the die's red plastic body to slightly off-white ivory (#ede8d7) and its five recessed white pips to charcoal black. Preserve exactly the shape, view, proportions, thin side faces and tiny wear. Improve edge cleanliness: remove detached speckles and bright colored fringes, true alpha zero outside the object. Entire object centered with 15% transparent safe margins. No text, no other object.",
+      "ref": "/Users/xiaofushan/Desktop/tin/research/samples/assets/dice_red_01-v2.png",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-17cd44ce-6484-40d1-bd9a-30c62b993341.png",
+      "asset_path": "/assets/dice_ivory_01.png"
+    },
+    {
+      "id": "earphones_black_coiled_01",
+      "prompt": "Use case: precise-object-edit. Edit target: attached white earphones sprite. Change ONLY white rubber and plastic to realistic soft charcoal black; keep metallic plug silver. Preserve both earbuds, correct connected Y cable, one remote, one plug and natural half-coiled posture exactly. Remove white halos and loose colored edge fragments; all gaps and non-object pixels must be alpha zero. Entire object centered with 15% transparent margins. No text, brand, watermark.",
+      "ref": "/Users/xiaofushan/Desktop/tin/research/samples/assets/earphones_white_coiled_01-v3.png",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-ebd3d776-00ff-43ed-ac65-a1b6ef1871d6.png",
+      "asset_path": "/assets/earphones_black_coiled_01.png"
+    },
+    {
+      "id": "hairclip_silver_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one inexpensive silver snap hair clip, 42 by 12 mm, classic elongated teardrop-shaped pressed sheet metal with inner spring tongue and long open slit. Long axis horizontal. Real metallic wear and highlights. Empty slit genuinely transparent.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-f7d7a0a3-c2c5-4f67-8116-6555740a368f.png",
+      "asset_path": "/assets/hairclip_silver_01.png"
+    },
+    {
+      "id": "pick_red_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one small red guitar pick, 25 by 30 mm, flat thin triangular plectrum with rounded shoulders and one rounded tip down, slightly scratched red celluloid plastic. No lettering or logo. Top surface mostly flat, very thin visible edge.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-6f97dfbb-2dff-45ee-9bfc-3689e1f990e3.png",
+      "asset_path": "/assets/pick_red_01.png"
+    },
+    {
+      "id": "cartridge_gray_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one generic unbranded small gray handheld game cartridge, 33 by 35 mm, front facing upward, gray injection-molded plastic, simple edge grooves, short exposed golden contact strip at bottom, inset blank faded blue label with NO text or artwork. Avoid recognizable console logos and famous game graphics.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-516f45f0-1101-4b88-8863-8df1d0c2f55f.png",
+      "asset_path": "/assets/cartridge_gray_01.png"
+    },
+    {
+      "id": "bottlecap_blue_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one blue painted metal crown bottle cap, 26 mm diameter, top facing up, plausible crimped serrated metal skirt, a little chipped paint revealing silver at edge. Flat cobalt blue center with no text or logo.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-2f125b22-791e-478a-998f-2990749a6173.png",
+      "asset_path": "/assets/bottlecap_blue_01.png"
+    },
+    {
+      "id": "shell_small_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one small collected ivory-white seashell, 25 by 22 mm, fan shaped bivalve shell with subtle sandy tan radial ridges, a small chipped natural edge, top convex exterior up. Dry real calcium shell with fine texture, not ceramic.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-527e5439-6433-4755-8c01-94ba0ef8e594.png",
+      "asset_path": "/assets/shell_small_01.png"
+    },
+    {
+      "id": "leaf_green_01",
+      "prompt": "Use case: product-mockup. Asset: one photorealistic ordinary unbranded object cutout for a miniature keepsake tin. Camera almost top-down, 10 degrees from normal, long lens, neutral 5000K soft upper-left light. Single complete object only, centered, 15% empty margin on all edges, no cast shadow. GENUINE transparent alpha background, all open holes alpha zero. Clean neutral antialiased physical edges with no white haze, colored fringe, watermark, text, brand or detached pixels. Real inexpensive materials, not clay, not illustration. Subject: one small ordinary pressed fresh green ovate leaf, about 24 by 48 mm, one thin short stem, clear central vein and subtle secondary veins, irregular natural edge. Flat near top view, not clover, not logo, no drop or flower.",
+      "original_path": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-543f39f3-eddb-43d0-a04c-4cb71d187e05.png",
+      "asset_path": "/assets/leaf_green_01.png"
+    }
+  ]
+}

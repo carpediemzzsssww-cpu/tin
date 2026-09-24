@@ -1,0 +1,152 @@
+[
+  {
+    "id": "glasses_sage",
+    "ref": "glasses_tortoise_01.png",
+    "subject": "Create an alternative pair of slim translucent olive-sage acetate reading glasses with softly squared rectangular lenses. Same folded-temple arrangement and horizontal top-down orientation; clear lenses should be genuinely transparent, not white opaque fills. Original understated unbranded design.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Create an alternative pair of slim translucent olive-sage acetate reading glasses with softly squared rectangular lenses. Same folded-temple arrangement and horizontal top-down orientation; clear lenses should be genuinely transparent, not white opaque fills. Original understated unbranded design. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-0177f83b-434f-44ab-98ba-e7d75b00a12a.png",
+    "assetPath": "/assets/variants/glasses_sage.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      35,
+      477,
+      1220,
+      777
+    ],
+    "sha256": "48581bd77153dcdc0954eb10a8cc3f6573f56c6667bb22f3a9c35b7ff5e5bd2d"
+  },
+  {
+    "id": "glasses_wire",
+    "ref": "glasses_tortoise_01.png",
+    "subject": "Create an alternative pair of delicate rounded champagne metal wire reading glasses, folded temples, subtle nose pads, same directly top-down horizontal orientation. Real thin metallic frame, genuinely transparent clear lenses rather than opaque white. Elegant secondhand pocket object, no brand.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Create an alternative pair of delicate rounded champagne metal wire reading glasses, folded temples, subtle nose pads, same directly top-down horizontal orientation. Real thin metallic frame, genuinely transparent clear lenses rather than opaque white. Elegant secondhand pocket object, no brand. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-6f796a26-b18a-4136-a689-77d59e2cc63c.png",
+    "assetPath": "/assets/variants/glasses_wire.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      36,
+      470,
+      1218,
+      783
+    ],
+    "sha256": "a70d1e47396d1f244ac38f0f64e81f259473684389e8464d75a3af7059c39ba6"
+  },
+  {
+    "id": "scrunchie_rose",
+    "ref": "scrunchie_blue_01.png",
+    "subject": "Change ONLY the blue gingham color to soft dusty rose pink and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the blue gingham color to soft dusty rose pink and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-d62ef962-b615-4542-bdbb-da2c946d4362.png",
+    "assetPath": "/assets/variants/scrunchie_rose.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      137,
+      112,
+      1174,
+      1143
+    ],
+    "sha256": "7729751cf33786283e64e5057ffd8f8b101076428681b5699f5d20a1bdd9d140"
+  },
+  {
+    "id": "scrunchie_sage",
+    "ref": "scrunchie_blue_01.png",
+    "subject": "Change ONLY the blue gingham color to muted sage green and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the blue gingham color to muted sage green and warm ivory. Preserve cotton weave, ruffles, same silhouette, lighting, size and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5f82325e-63fa-47e7-8409-a3cd6bcb8520.png",
+    "assetPath": "/assets/variants/scrunchie_sage.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      136,
+      111,
+      1170,
+      1142
+    ],
+    "sha256": "0c5cc4ad751479e77cbe612b9bc4a6cc7a502090e0c74cdbf96b836fc157f7fd"
+  },
+  {
+    "id": "orchid_blush",
+    "ref": "orchid_cream_01.png",
+    "subject": "Change ONLY the creamy white orchid petals to a subtle blush pink phalaenopsis with slightly darker pink delicate central veins. Preserve real petal texture, natural yellow-burgundy center, silhouette, lighting and true transparent background.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the creamy white orchid petals to a subtle blush pink phalaenopsis with slightly darker pink delicate central veins. Preserve real petal texture, natural yellow-burgundy center, silhouette, lighting and true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c9402c2a-5c9d-4c09-9f85-f2012a0fdf4e.png",
+    "assetPath": "/assets/variants/orchid_blush.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      42,
+      77,
+      1215,
+      1138
+    ],
+    "sha256": "a3b6d9528715772aab2e005f4727c1a5b26c132fdfb5003b6f3152921ff57a29"
+  },
+  {
+    "id": "orchid_butter",
+    "ref": "orchid_cream_01.png",
+    "subject": "Change ONLY the creamy white orchid petals to very pale butter yellow phalaenopsis. Restrained natural botanical color, preserve texture, yellow-burgundy center, same silhouette and lighting, true transparent background.",
+    "prompt": "Use case: precise-object-edit. A single TIN 2.5D object sprite. Change ONLY the creamy white orchid petals to very pale butter yellow phalaenopsis. Restrained natural botanical color, preserve texture, yellow-burgundy center, same silhouette and lighting, true transparent background. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. Reference is the original sprite; preserve photographic quality and lighting.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-bf428821-7550-40cf-baa9-c4e20e766c43.png",
+    "assetPath": "/assets/variants/orchid_butter.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      41,
+      76,
+      1214,
+      1138
+    ],
+    "sha256": "aef69334ba43176e70c9475ce6e17209b8c8f67c69e7b9b81d9032133d0ee761"
+  },
+  {
+    "id": "clover_real",
+    "subject": "One real gently pressed four-leaf clover botanical specimen, four subtly heart-shaped asymmetrical natural leaves, soft desaturated meadow green, pale crescent markings and very fine branching veins, slightly curled thin edges, a slender curved stem. Natural tiny blemishes, photographed not illustrated. The four leaves should lie individually visible flat, one cluster and one stem, no soil or other objects.",
+    "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One real gently pressed four-leaf clover botanical specimen, four subtly heart-shaped asymmetrical natural leaves, soft desaturated meadow green, pale crescent markings and very fine branching veins, slightly curled thin edges, a slender curved stem. Natural tiny blemishes, photographed not illustrated. The four leaves should lie individually visible flat, one cluster and one stem, no soil or other objects. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5177f008-a206-451e-ace9-4499047bd8b3.png",
+    "assetPath": "/assets/variants/clover_real.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      145,
+      63,
+      1121,
+      1230
+    ],
+    "sha256": "69718d10aebe703a9843732f27d3d507e7481d2e9093f87055a3e087bf6311f2"
+  },
+  {
+    "id": "plush_oat",
+    "subject": "One tiny original handmade teddy bear bag charm, front facing upward flat, warm oatmeal short-pile cotton velour, small round ears, pear-shaped soft body, tiny dark brown embroidered seed eyes, short stitched nose, one small muted blue linen patch on belly and a discreet brass hanging loop. Tasteful contemporary artisan toy, slightly imperfect visible hand stitches, charming calm expression. Real textile photo not toy 3D render, not an existing character.",
+    "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One tiny original handmade teddy bear bag charm, front facing upward flat, warm oatmeal short-pile cotton velour, small round ears, pear-shaped soft body, tiny dark brown embroidered seed eyes, short stitched nose, one small muted blue linen patch on belly and a discreet brass hanging loop. Tasteful contemporary artisan toy, slightly imperfect visible hand stitches, charming calm expression. Real textile photo not toy 3D render, not an existing character. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-982f79f0-0681-4ba5-9170-56a6ea6a5f43.png",
+    "assetPath": "/assets/variants/plush_oat.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      195,
+      112,
+      946,
+      1267
+    ],
+    "sha256": "9d34a030cdc09b13a0e3e1e42f021fd04b41425cc929e7f8e01fd7f37fea9eac"
+  },
+  {
+    "id": "plush_rabbit",
+    "subject": "One tiny original handmade rabbit bag charm, front facing upward flat, sage-gray short-pile cotton velour, two relaxed softly drooping long ears, pear-shaped body, small dark brown embroidered seed eyes, stitched tiny nose, a small ivory linen star patch on belly and a discreet brass hanging loop. Tasteful artisan handmade collectible, slightly imperfect hand stitches, real textile photo not toy 3D render, not an existing character.",
+    "prompt": "Use case: product-mockup. A single TIN 2.5D object sprite. One tiny original handmade rabbit bag charm, front facing upward flat, sage-gray short-pile cotton velour, two relaxed softly drooping long ears, pear-shaped body, small dark brown embroidered seed eyes, stitched tiny nose, a small ivory linen star patch on belly and a discreet brass hanging loop. Tasteful artisan handmade collectible, slightly imperfect hand stitches, real textile photo not toy 3D render, not an existing character. Uniform art direction: realistic tactile small keepsake, orthographic near-top-down, soft diffuse daylight from upper left, muted natural colors, fully contained silhouette with clear margins. TRUE transparent background with alpha, no checkerboard pixels or flat backdrop, no cast shadow outside silhouette. No added objects, text, logos, watermarks. ",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-d18eaafe-0ea4-4414-94ed-e84f0fdc6d87.png",
+    "assetPath": "/assets/variants/plush_rabbit.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "bounds": [
+      38,
+      33,
+      1159,
+      1273
+    ],
+    "sha256": "b8b2231cd4be950351e85ac34df0c7f4371351803f0fdaf55486cc1a33a701b9"
+  }
+]

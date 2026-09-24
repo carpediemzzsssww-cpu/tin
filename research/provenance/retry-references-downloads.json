@@ -1,0 +1,67 @@
+[
+  {
+    "id": "R15",
+    "url": "https://i.etsystatic.com/21162700/r/il/5efba4/6832945729/il_570xN.6832945729_tfcc.jpg",
+    "status": 200,
+    "final_url": "https://i.etsystatic.com/21162700/r/il/5efba4/6832945729/il_570xN.6832945729_tfcc.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R15.jpg",
+    "width": 570,
+    "height": 570,
+    "bytes": 108639,
+    "sha256": "7607028ab6d7181ffe5039ac7fbc799aa61a606c61edce043845084cca3d5202",
+    "verified": true
+  },
+  {
+    "id": "R17",
+    "url": "https://cdn.shopify.com/s/files/1/0328/6456/7431/files/Artboard_3_f4abfbb7-25a0-44e3-861a-c1b9b5da97c6.jpg?v=1588736569",
+    "status": 200,
+    "final_url": "https://cdn.shopify.com/s/files/1/0328/6456/7431/files/Artboard_3_f4abfbb7-25a0-44e3-861a-c1b9b5da97c6.jpg?v=1588736569",
+    "content_type": "image/jpeg",
+    "local_path": "media/R17.jpg",
+    "width": 1500,
+    "height": 1000,
+    "bytes": 294035,
+    "sha256": "79528f55462176f540f77c217dc0b861c4703c3a13e4379b0791ea93dd3ca7d1",
+    "verified": true
+  },
+  {
+    "id": "R20",
+    "url": "https://picturescdn.estatesales.net/3762132/148581241/1.jpg",
+    "status": 200,
+    "final_url": "https://picturescdn.estatesales.net/3762132/148581241/1.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R20.jpg",
+    "width": 1400,
+    "height": 629,
+    "bytes": 224304,
+    "sha256": "e58eaefe2ce724940d5ef09495f4a214b25ef327bcb63628e1a77d57ea98178f",
+    "verified": true
+  },
+  {
+    "id": "R27",
+    "url": "https://cdn.shopify.com/s/files/1/0559/4274/2224/files/PippaRyan_2024__SarahWeal_SchoolBoy_Square_WEB.jpg?v=1717572443&width=1500",
+    "status": 200,
+    "final_url": "https://cdn.shopify.com/s/files/1/0559/4274/2224/files/PippaRyan_2024__SarahWeal_SchoolBoy_Square_WEB.jpg?v=1717572443&width=1500",
+    "content_type": "image/jpeg",
+    "local_path": "media/R27.jpg",
+    "width": 1500,
+    "height": 1500,
+    "bytes": 273743,
+    "sha256": "978f50ddb8df14272ee1355435bcdd2e0798738ba60e00a976bd727f95612911",
+    "verified": true
+  },
+  {
+    "id": "R28",
+    "url": "https://assets.st-note.com/img/1762656465-wI4OrjELJuq50bVCGTzelYB7.jpg?width=1200",
+    "status": 200,
+    "final_url": "https://assets.st-note.com/img/1762656465-wI4OrjELJuq50bVCGTzelYB7.jpg?width=1200",
+    "content_type": "image/jpg",
+    "local_path": "media/R28.jpg",
+    "width": 1200,
+    "height": 675,
+    "bytes": 277811,
+    "sha256": "41098e86704d8916b461e259a754efe24826da2ada9be26a40eaa64126a0c1dd",
+    "verified": true
+  }
+]

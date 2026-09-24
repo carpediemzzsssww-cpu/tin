@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+dist/
+output/
+*.tsbuildinfo
+.vercel/
+.playwright-cli/
+.codex/
+artifacts/
+*.zip
+*.log
+.env
+.env.*
+!.env.example
+tin-app/minitool/CONTAINER_SPEC.html
+.vercel
+# User-provided screenshots and research-only reference bitmaps stay local.
+research/user-references/
+research/images/
+research/samples/vendor/
+research/media/

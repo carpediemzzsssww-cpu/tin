@@ -1,0 +1,198 @@
+[
+  {
+    "id": "cherry_charm_01",
+    "name": "樱桃挂件",
+    "kind": "cutout",
+    "subject": "A tiny original double-cherry resin charm, deep translucent oxblood cherries, moss green leaf and fine antique brass jump ring. Slight handmade irregularity, polished but not toy CGI.",
+    "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A tiny original double-cherry resin charm, deep translucent oxblood cherries, moss green leaf and fine antique brass jump ring. Slight handmade irregularity, polished but not toy CGI. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-5bc36aba-c125-4cef-96c9-528da37564c8.png",
+    "assetPath": "/assets/collection/cherry_charm_01.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1226,
+      1283
+    ],
+    "bounds": [
+      156,
+      115,
+      1079,
+      1121
+    ],
+    "mode": "RGBA",
+    "sha256": "fa9c112e7a59860ca0586f61fca3e9280ca9e9d6b9d85b775b44405a4145f74d"
+  },
+  {
+    "id": "cat_ceramic_01",
+    "name": "陶瓷小猫",
+    "kind": "cutout",
+    "subject": "A tiny original handmade ceramic sleeping-cat lucky token, curled compact silhouette, ivory speckled glaze, hand-painted cocoa brown sleeping eyes and small terracotta ears, gentle asymmetric artisan details. No famous cartoon resemblance, no base.",
+    "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A tiny original handmade ceramic sleeping-cat lucky token, curled compact silhouette, ivory speckled glaze, hand-painted cocoa brown sleeping eyes and small terracotta ears, gentle asymmetric artisan details. No famous cartoon resemblance, no base. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-8db9d731-7fc2-4138-8e98-2071491bcee4.png",
+    "assetPath": "/assets/collection/cat_ceramic_01.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1402,
+      1122
+    ],
+    "bounds": [
+      97,
+      145,
+      1289,
+      984
+    ],
+    "mode": "RGBA",
+    "sha256": "21050ccde0af0da09299684b673a454854eb021d63a7344e993127ead3e1370b"
+  },
+  {
+    "id": "candy_rose_01",
+    "name": "草莓糖",
+    "kind": "cutout",
+    "subject": "One tiny strawberry milk candy in a crinkled translucent waxed wrapper with delicate pale rose and cream stripes, twisted ends, no text or logo. Believable inexpensive pocket sweet, tactile paper reflections, subtle foil inside.",
+    "prompt": "Use case: product-mockup. A tiny wrapped strawberry sweet, photographed directly overhead as an isolated game inventory object. MATTE OPAQUE pink-and-ivory gingham PAPER wrapping, small rectangular candy in middle, two short folded paper ends. Dry crumpled paper texture with soft ordinary diffuse daylight from upper left. No transparency in the wrapping, no shiny plastic, no foil. True TRANSPARENT BACKGROUND, crisp alpha silhouette exactly around the paper wrapper. No cast shadow, no glow, no haze, no color bloom, no backlighting, no background. Single item, entire object in frame with generous margins, no text, brand or watermark.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-2cd829f6-d04e-4cc8-aad4-c282e25ab644.png",
+    "assetPath": "/assets/collection/candy_rose_01-v3.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1536,
+      1024
+    ],
+    "bounds": [
+      128,
+      307,
+      1415,
+      731
+    ],
+    "mode": "RGBA",
+    "sha256": "058153dfc05e483bc25a42bea94f9b92f58ce2104e422c964fbf0af4ecd2ffdc",
+    "initialRawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c7bddfd8-bd3b-406b-8564-3e650e1f971d.png",
+    "revision": "Remove all exterior glow and haze; preserve wrapper and true transparent alpha.",
+    "iterations": [
+      {
+        "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c7bddfd8-bd3b-406b-8564-3e650e1f971d.png",
+        "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: One tiny strawberry milk candy in a crinkled translucent waxed wrapper with delicate pale rose and cream stripes, twisted ends, no text or logo. Believable inexpensive pocket sweet, tactile paper reflections, subtle foil inside. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark."
+      },
+      {
+        "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-4c9fb0cb-2682-4896-8efc-731cdf8c2c7c.png",
+        "prompt": "Use case: background-extraction. Edit this single candy sprite: preserve the strawberry-pink striped paper wrapper and candy exactly, but REMOVE ALL glow, haze, halo, cast shadow and backdrop pixels outside the actual physical candy wrapper silhouette. Return true clean transparent alpha everywhere outside the object. No soft bloom, no surrounding colored mist, no shadow. Keep soft upper-left daylight and the original tactile wrapper. The cutout must composite cleanly on a silver metal surface."
+      }
+    ]
+  },
+  {
+    "id": "daisy_pressed_01",
+    "name": "压花雏菊",
+    "kind": "cutout",
+    "subject": "A single small real pressed daisy with imperfect ivory petals, warm ochre center, slender slightly bent green stem and one tiny leaf. Natural dried fibers and delicate translucency, not a botanical illustration.",
+    "prompt": "Use case: product-mockup. Asset type: a single original 2.5D object sprite for a personal keepsake tin. Subject: A single small real pressed daisy with imperfect ivory petals, warm ochre center, slender slightly bent green stem and one tiny leaf. Natural dried fibers and delicate translucency, not a botanical illustration. Orthographic near-top-down, lying flat, entirely in frame with generous clear margins. Real macro product photography, soft diffuse daylight from upper left, muted natural colors, consistent tactile material detail. TRUE transparent background and alpha. No cast shadow outside the silhouette, no backdrop or checkerboard pixels, no extra objects, no border, text or watermark.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-ca6fcb7a-5157-4bde-a573-8d03f75ec381.png",
+    "assetPath": "/assets/collection/daisy_pressed_01.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1214,
+      1295
+    ],
+    "bounds": [
+      225,
+      28,
+      989,
+      1265
+    ],
+    "mode": "RGBA",
+    "sha256": "210b7c6f411842ab803facca8bc178f764aaff616207f13bae31b0354ca0dff6"
+  },
+  {
+    "id": "memory_cinema",
+    "name": "散场以后",
+    "kind": "photo",
+    "subject": "A nostalgic 35mm film snapshot of a quiet old small-town cinema entrance at blue hour, warm red light around a blank marquee, a blue bicycle leaned outside, wet pavement reflections. No people, no words, no logos. Deep navy and muted cherry red palette.",
+    "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A nostalgic 35mm film snapshot of a quiet old small-town cinema entrance at blue hour, warm red light around a blank marquee, a blue bicycle leaned outside, wet pavement reflections. No people, no words, no logos. Deep navy and muted cherry red palette. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-0cd0f8f6-338d-4e6a-805a-187ce2e6b653.png",
+    "assetPath": "/memories/memory_cinema.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "sha256": "5ec595488652c9831ebd20b25132bec21fac352aedd3f75ae059823ca0b533ad"
+  },
+  {
+    "id": "memory_hotel",
+    "name": "粉色假期",
+    "kind": "photo",
+    "subject": "A charming candid 35mm travel photograph of a pastel blush-pink European pension facade, cream shutters, a little striped red awning and window boxes. Slightly off-center framing from street level, hazy afternoon sun, warm pink and buttercream palette. No people, no words, no logos.",
+    "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A charming candid 35mm travel photograph of a pastel blush-pink European pension facade, cream shutters, a little striped red awning and window boxes. Slightly off-center framing from street level, hazy afternoon sun, warm pink and buttercream palette. No people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-6a6e514d-989d-4e05-a8cb-d64ad9ebe6a4.png",
+    "assetPath": "/memories/memory_hotel.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "sha256": "605740f03b1d3302bf0960e9b0d0ec132f8c634124b04da88255144ddab88c51"
+  },
+  {
+    "id": "memory_coast",
+    "name": "海边周末",
+    "kind": "photo",
+    "subject": "A candid 35mm coastal travel snapshot: pale blue striped beach umbrella and a folded white chair beside calm turquoise sea, sunlit bleached boardwalk in foreground. Airy off-center composition, faded blue, cream and a hint of sage. No people, no words, no logos.",
+    "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A candid 35mm coastal travel snapshot: pale blue striped beach umbrella and a folded white chair beside calm turquoise sea, sunlit bleached boardwalk in foreground. Airy off-center composition, faded blue, cream and a hint of sage. No people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-c696147f-07c3-4329-973f-b53996452399.png",
+    "assetPath": "/memories/memory_coast.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "sha256": "96e6d8d2467e5dbd6d3ce0fb6d91eb0430540cb411e55069db3b350394c8a079"
+  },
+  {
+    "id": "memory_birthday",
+    "name": "许个愿吧",
+    "kind": "photo",
+    "subject": "A close candid 35mm snapshot of a small homemade strawberry cream birthday cake, a single slim red candle, a few cherries, on a butter-yellow plate over a pale pink gingham cloth. Cropped intimate framing, warm natural side light, no people, no words, no logos.",
+    "prompt": "Use case: photorealistic-natural. Asset type: original photographic insert for a miniature keepsake postcard; portrait 3:4 full bleed photo, no frame. A close candid 35mm snapshot of a small homemade strawberry cream birthday cake, a single slim red candle, a few cherries, on a butter-yellow plate over a pale pink gingham cloth. Cropped intimate framing, warm natural side light, no people, no words, no logos. Tasteful analog film grain, believable real-world details, soft imperfect photographic focus, modest saturation, not an illustration or 3D render.",
+    "rawPath": "/Users/xiaofushan/.codex/generated_images/01a0cf17-b090-7482-bac8-8fc74ca7cef4/exec-721bf1a9-1d95-4634-8938-48b43a78ac4a.png",
+    "assetPath": "/memories/memory_birthday.png",
+    "tool": "built-in image_gen",
+    "date": "2026-09-24",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "sha256": "cbc11bbd7c17a93a48c2efb6676313558d285baa430cc886c17010c983a48672"
+  }
+]

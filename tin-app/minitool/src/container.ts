@@ -1,0 +1,7 @@
+// SDK entry points and version rules captured from the container spec on 2026-09-24.
+export const mini=()=> (window as any).xhs?.miniTool;
+let envPromise:Promise<any>|undefined;
+export function environment(){return envPromise ||= (async()=>{const x=(window as any).xhs;let options=x?.launchOptions;if(!options?.miniToolEnv?.buildVersion&&typeof mini()?.getLaunchOptions==='function'){try{options=await mini().getLaunchOptions();}catch{return {version:0};}}return {...options?.miniToolEnv,version:Math.floor(Number(options?.miniToolEnv?.buildVersion||0)/1000)};})();}
+export async function hasStorage(){return (await environment()).version>=9460&&typeof mini()?.setStorage==='function'&&typeof mini()?.getStorage==='function';}
+export const blobData=(blob:Blob)=>new Promise<string>((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result));r.onerror=()=>reject(new Error('照片读取失败'));r.readAsDataURL(blob);});
+export async function album(image:HTMLImageElement){if(typeof mini()?.saveImageToPhotosAlbum!=='function')throw new Error('请在小红书小工具中保存到相册');const c=document.createElement('canvas');c.width=image.naturalWidth;c.height=image.naturalHeight;c.getContext('2d')!.drawImage(image,0,0);const data=c.toDataURL('image/png');const path=typeof mini().writeTempFile==='function'?(await mini().writeTempFile({data})).filePath:data;await mini().saveImageToPhotosAlbum({filePath:path});}

@@ -1,0 +1,8 @@
+{
+ "buildCommand": "npm --prefix tin-app ci && npm --prefix tin-app run build",
+ "outputDirectory": "tin-app/dist",
+ "framework": null,
+ "headers": [
+  {"source":"/(.*)","headers":[{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"}]}
+ ]
+}

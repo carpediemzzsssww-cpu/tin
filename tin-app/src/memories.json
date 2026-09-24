@@ -1,0 +1,22 @@
+[
+  {
+    "id": "memory_cinema",
+    "name": "散场以后",
+    "assetPath": "/memories/memory_cinema.png"
+  },
+  {
+    "id": "memory_hotel",
+    "name": "粉色假期",
+    "assetPath": "/memories/memory_hotel.png"
+  },
+  {
+    "id": "memory_coast",
+    "name": "海边周末",
+    "assetPath": "/memories/memory_coast.png"
+  },
+  {
+    "id": "memory_birthday",
+    "name": "许个愿吧",
+    "assetPath": "/memories/memory_birthday.png"
+  }
+]

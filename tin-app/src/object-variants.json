@@ -1,0 +1,110 @@
+{
+  "glasses": [
+    {
+      "id": "default",
+      "label": "琥珀"
+    },
+    {
+      "id": "glasses_sage",
+      "label": "鼠尾草",
+      "path": "/assets/variants/glasses_sage.png",
+      "bounds": [
+        35,
+        477,
+        1220,
+        777
+      ]
+    },
+    {
+      "id": "glasses_wire",
+      "label": "香槟金",
+      "path": "/assets/variants/glasses_wire.png",
+      "bounds": [
+        36,
+        470,
+        1218,
+        783
+      ]
+    }
+  ],
+  "scrunchie": [
+    {
+      "id": "default",
+      "label": "蓝格"
+    },
+    {
+      "id": "scrunchie_rose",
+      "label": "藕粉",
+      "path": "/assets/variants/scrunchie_rose.png",
+      "bounds": [
+        137,
+        112,
+        1174,
+        1143
+      ]
+    },
+    {
+      "id": "scrunchie_sage",
+      "label": "草绿",
+      "path": "/assets/variants/scrunchie_sage.png",
+      "bounds": [
+        136,
+        111,
+        1170,
+        1142
+      ]
+    }
+  ],
+  "orchid": [
+    {
+      "id": "default",
+      "label": "奶油白"
+    },
+    {
+      "id": "orchid_blush",
+      "label": "浅粉",
+      "path": "/assets/variants/orchid_blush.png",
+      "bounds": [
+        42,
+        77,
+        1215,
+        1138
+      ]
+    },
+    {
+      "id": "orchid_butter",
+      "label": "奶油黄",
+      "path": "/assets/variants/orchid_butter.png",
+      "bounds": [
+        41,
+        76,
+        1214,
+        1138
+      ]
+    }
+  ],
+  "plush": [
+    {
+      "id": "default",
+      "label": "燕麦小熊",
+      "path": "/assets/variants/plush_oat.png",
+      "bounds": [
+        195,
+        112,
+        946,
+        1267
+      ]
+    },
+    {
+      "id": "plush_rabbit",
+      "label": "苔绿小兔",
+      "path": "/assets/variants/plush_rabbit.png",
+      "bounds": [
+        38,
+        33,
+        1159,
+        1273
+      ]
+    }
+  ]
+}

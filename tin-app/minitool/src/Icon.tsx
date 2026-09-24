@@ -1,0 +1,20 @@
+const paths:Record<string,string>={
+ transform:'M4 10a8 8 0 0 1 14-4m0-4v4h-4M8 20H4v-4m0 4 7-7m9-3v10H10',
+ palette:'M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1-3.8c-.8-.5-.4-1.7.5-1.7H17c3.1 0 4-2.4 4-4.5a8 8 0 0 0-9-8ZM7 10h.01M10 6.5h.01M15 6.5h.01M18 10h.01',
+ undo:'M9 5 4 10l5 5M4 10h10a6 6 0 0 1 0 12',
+ redo:'m15 5 5 5-5 5m5-5H10a6 6 0 0 0 0 12',
+ left:'M5 9a8 8 0 1 1-1 7M5 3v6h6',
+ right:'M19 9a8 8 0 1 0 1 7m-1-13v6h-6',
+ settings:'M4 7h10m4 0h2M4 17h2m4 0h10M14 4v6M6 14v6',
+ download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',
+ close:'m6 6 12 12M18 6 6 18',
+ box:'M4 11h16v9H4zM4 7l15-4 1 4-15 4',
+ more:'M5 12h.01M12 12h.01M19 12h.01',
+ up:'m8 7 4-4 4 4M12 3v13M4 21h16',
+ down:'m8 12 4 4 4-4M12 3v13M4 21h16',
+ trash:'M4 6h16M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7',
+ edit:'m4 16 12-12 4 4L8 20H4zm10-10 4 4',
+ random:'m17 3 4 4-4 4M3 17h3c5 0 5-10 10-10h5M3 7h3c2 0 3 2 4 4m4 4c1 2 2 2 3 2h4m-4-4 4 4-4 4',
+ transfer:'M5 5h14v5H5zM5 14h14v5H5zM12 8v8m-3-3 3 3 3-3',
+};
+export default function Icon({name}:{name:string}){return <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={paths[name]||paths.more}/></svg>;}

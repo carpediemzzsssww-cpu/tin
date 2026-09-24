@@ -1,0 +1,175 @@
+[
+  {
+    "id": "R13",
+    "url": "https://images.squarespace-cdn.com/content/v1/5a1c5a9ecf81e02d03c96339/e30f7f59-a5a7-438d-a929-e3ac84ad2b83/IMG_5259.png?format=1000w",
+    "status": 200,
+    "final_url": "https://images.squarespace-cdn.com/content/v1/5a1c5a9ecf81e02d03c96339/e30f7f59-a5a7-438d-a929-e3ac84ad2b83/IMG_5259.png?format=1000w",
+    "content_type": "image/png",
+    "local_path": "media/R13.png",
+    "width": 1000,
+    "height": 1333,
+    "bytes": 567223,
+    "sha256": "c08359bab56eccf78ffa19bd4ae1df05546c88489770255d6a81a7a473a58497",
+    "verified": true
+  },
+  {
+    "id": "R14",
+    "url": "https://www.designsbyoh.com/cdn/shop/files/Sonkyi_6__1559-web.jpg?v=1763936866&width=1920",
+    "status": 200,
+    "final_url": "https://www.designsbyoh.com/cdn/shop/files/Sonkyi_6__1559-web.jpg?v=1763936866&width=1920",
+    "content_type": "image/jpeg",
+    "local_path": "media/R14.jpg",
+    "width": 1600,
+    "height": 1600,
+    "bytes": 128191,
+    "sha256": "c6359321cc2cff98a1661dba191bc384e7e5adbfdfd9ed8b8a53113ed3b7bcad",
+    "verified": true
+  },
+  {
+    "id": "R15",
+    "url": "https://cdn01.pinkoi.com/product/Gar5Vmxs/1/640x530.jpg",
+    "verified": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R16",
+    "url": "https://i.etsystatic.com/8622539/r/il/ed763d/8192475685/il_fullxfull.8192475685_s7s5.jpg",
+    "status": 200,
+    "final_url": "https://i.etsystatic.com/8622539/r/il/ed763d/8192475685/il_fullxfull.8192475685_s7s5.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R16.jpg",
+    "width": 2312,
+    "height": 3000,
+    "bytes": 538620,
+    "sha256": "c270012ae072efcd8bb58658ae96a623ad7d5d9c94d11446973cbcb25c0ac9cb",
+    "verified": true
+  },
+  {
+    "id": "R17",
+    "url": "https://stat.ameba.jp/user_images/20210906/18/lovin-it-you-07/f6/d7/j/o3846297214997247436.jpg",
+    "verified": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R18",
+    "url": "https://assets.st-note.com/img/1757723529-KBzen72YXIk8sMPSjZ5AwJC9.jpg?fit=bounds&height=2000&quality=85&width=2000",
+    "status": 200,
+    "final_url": "https://assets.st-note.com/img/1757723529-KBzen72YXIk8sMPSjZ5AwJC9.jpg?fit=bounds&height=2000&quality=85&width=2000",
+    "content_type": "image/jpg",
+    "local_path": "media/R18.jpg",
+    "width": 1722,
+    "height": 969,
+    "bytes": 413549,
+    "sha256": "1550b0f69945770340bc8fe6c61a2f407b44888ab072fe3f001c221f71e27e79",
+    "verified": true
+  },
+  {
+    "id": "R19",
+    "url": "https://assets-production.mochi.media/products/144902/photos/square_thumbnail_276174-6pcs-magazine-collage-sticker-set-347725.jpg",
+    "status": 200,
+    "final_url": "https://assets-production.mochi.media/products/144902/photos/square_thumbnail_276174-6pcs-magazine-collage-sticker-set-347725.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R19.jpg",
+    "width": 500,
+    "height": 500,
+    "bytes": 61677,
+    "sha256": "c44cee5cefaaa55b28cc9275d76dca170c80ce73cd9451c4e513adbaab228aba",
+    "verified": true
+  },
+  {
+    "id": "R20",
+    "url": "https://stat.ameba.jp/user_images/20241203/17/chiribaadayo/88/de/j/o1080081015517313006.jpg",
+    "verified": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R21",
+    "url": "https://parismag.jp/common/images/uploads/2016/03/tono_paris2-600x400.jpg",
+    "status": 200,
+    "final_url": "https://parismag.jp/common/images/uploads/2016/03/tono_paris2-600x400.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R21.jpg",
+    "width": 600,
+    "height": 400,
+    "bytes": 94141,
+    "sha256": "2c234fdde0c0d863753a720a3e9fc1668a186370f0ab85b7acf733cdddd4da35",
+    "verified": true
+  },
+  {
+    "id": "R22",
+    "url": "https://dottie.enjoyillinois.com/assets/Tourism-Operators/images/gl-flea-22__FocusFillWyIwLjAwIiwiMC4wMCIsMTIwMCw5MDBd.jpg",
+    "status": 200,
+    "final_url": "https://dottie.enjoyillinois.com/assets/Tourism-Operators/images/gl-flea-22__FocusFillWyIwLjAwIiwiMC4wMCIsMTIwMCw5MDBd.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R22.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 251797,
+    "sha256": "245d78080b3a52d2ac308f5958826d4ed554056e669a0d025752883b8dba9c69",
+    "verified": true
+  },
+  {
+    "id": "R23",
+    "url": "https://image.invaluable.com/housePhotos/ejsauction/41/792241/H8897-L404393122.jpg",
+    "status": 200,
+    "final_url": "https://image.invaluable.com/housePhotos/ejsauction/41/792241/H8897-L404393122.jpg",
+    "content_type": "image/jpg",
+    "local_path": "media/R23.jpg",
+    "width": 1000,
+    "height": 1247,
+    "bytes": 303629,
+    "sha256": "89b2219ea236f6b10a0c6ece5a3be298c697b8f7434a0b55426f12186ae74c4d",
+    "verified": true
+  },
+  {
+    "id": "R24",
+    "url": "https://pipparyan.com/cdn/shop/files/20240927_144245.jpg?v=1769603983&width=2220",
+    "status": 200,
+    "final_url": "https://pipparyan.com/cdn/shop/files/20240927_144245.jpg?v=1769603983&width=2220",
+    "content_type": "image/jpeg",
+    "local_path": "media/R24.jpg",
+    "width": 2220,
+    "height": 2220,
+    "bytes": 908721,
+    "sha256": "561bc179fafc66f3a362c47a5b21a27aabeedbb47ef29eedbc41367e0b53affa",
+    "verified": true
+  },
+  {
+    "id": "R25",
+    "url": "https://media.itsnicethat.com/images/Vittoria_Tedaldi_SPAIN.width-1440_Ifs5zyoytSTdtGrm.jpg",
+    "status": 200,
+    "final_url": "https://media.itsnicethat.com/images/Vittoria_Tedaldi_SPAIN.width-1440_Ifs5zyoytSTdtGrm.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R25.jpg",
+    "width": 1440,
+    "height": 773,
+    "bytes": 347609,
+    "sha256": "8bb869c34675b92688bb6055efb5689a77d3c9375c7810f40b843e6ae6b517ea",
+    "verified": true
+  },
+  {
+    "id": "R26",
+    "url": "https://intoform.wordpress.com/wp-content/uploads/2011/09/burninghouse15.jpg",
+    "status": 200,
+    "final_url": "https://intoform.wordpress.com/wp-content/uploads/2011/09/burninghouse15.jpg",
+    "content_type": "image/jpeg",
+    "local_path": "media/R26.jpg",
+    "width": 721,
+    "height": 481,
+    "bytes": 159110,
+    "sha256": "dbfd27260ed509f1c850b6b73a9ce9803e695b2197cc403707ba8039959d1404",
+    "verified": true
+  },
+  {
+    "id": "R27",
+    "url": "https://delviewmedia.weebly.com/uploads/3/0/9/9/3099487/thingsorganizedneatly_1.jpg",
+    "verified": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R28",
+    "url": "https://www.muji.com/public/media/jp/img/store/045413/visual/045413_250528_01_00.jpg",
+    "verified": false,
+    "error": "The read operation timed out"
+  }
+]
